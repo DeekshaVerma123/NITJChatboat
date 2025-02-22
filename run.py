@@ -40,7 +40,8 @@ def normal_chat():
 
     if (tag == "holidays"):
         holiday = Holidays.query.first()
-        link = f'http://127.0.0.1:5000/holidays/download/{holiday.id}/'
+        # link = f'http://127.0.0.1:5000/holidays/download/{holiday.id}/'
+        link = f'http://127.0.0.1:5000/holidays/download/2/'
         response = f"Holidays for year {holiday.year} is down below"
         return jsonify({
             'response': response, 'tag': tag,
