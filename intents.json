@@ -146,6 +146,70 @@
         "What is my result?"
       ],
       "responses": ["Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How can I get admission to NIT Jalandhar?",
+        "What is the admission process for NIT Jalandhar?",
+        "What are the eligibility criteria for admission to NIT Jalandhar?",
+        "How can I apply for admission to NIT Jalandhar?",
+        "What entrance exams are required for NIT Jalandhar?",
+        "Where can I find details about NIT Jalandhar admissions?",
+        "What is the cutoff for admission to NIT Jalandhar?",
+        "Does NIT Jalandhar have reservations for different categories?",
+        "What is the counseling process for NIT Jalandhar admissions?"
+      ],
+      "responses": [
+        "Admissions to NIT Jalandhar are primarily based on national-level entrance exams like JEE Main for B.Tech and GATE for M.Tech. Learn more about the admission process here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>NIT Jalandhar Admissions</a>.",
+        "To secure admission to NIT Jalandhar, candidates must qualify for the required entrance exams and participate in the centralized counseling process. Check complete details here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Admission Process</a>.",
+        "The eligibility criteria for admission vary depending on the program. Generally, JEE Main is required for B.Tech, GATE for M.Tech, and other relevant exams for different courses. Find eligibility details here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Eligibility Criteria</a>.",
+        "You can apply for NIT Jalandhar admissions through the official portals like JoSAA (for B.Tech) and CCMT (for M.Tech). Learn more about the application process here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>How to Apply</a>.",
+        "NIT Jalandhar accepts JEE Main scores for B.Tech admissions, GATE scores for M.Tech, and other entrance exams for different programs. Check the list of required exams here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Entrance Exams</a>.",
+        "All information regarding admission to NIT Jalandhar, including important dates, application process, and eligibility, can be found here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>NIT Jalandhar Admissions</a>.",
+        "The cutoff for admission varies yearly based on exam performance and seat availability. Check the latest cutoffs and seat matrix here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Cutoff Details</a>.",
+        "Yes, NIT Jalandhar follows government reservation policies for SC, ST, OBC, EWS, and PwD categories. Learn more about category-wise seat allocation here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Reservation Policy</a>.",
+        "The counseling process for admission to NIT Jalandhar is conducted through JoSAA (for B.Tech) and CCMT (for M.Tech). Get detailed counseling information here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>Counseling Process</a>."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure of NIT Jalandhar?",
+        "How much is the tuition fee at NIT Jalandhar?",
+        "What are the fees for B.Tech at NIT Jalandhar?",
+        "Where can I find the fee details for NIT Jalandhar?",
+        "What is the hostel fee at NIT Jalandhar?",
+        "How much do I need to pay for admission to NIT Jalandhar?",
+        "What are the semester fees at NIT Jalandhar?",
+        "Can I get a detailed fee breakdown for NIT Jalandhar?"
+      ],
+      "responses": [
+        "The fee structure at NIT Jalandhar varies based on the course and category of the student. You can check the complete details, including tuition fees, hostel fees, and other charges here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>NIT Jalandhar Fee Structure</a>.",
+        "NIT Jalandhar provides a detailed breakdown of tuition fees, hostel fees, and other charges for B.Tech and other programs. Find the latest fee details here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Fee Structure PDF</a>.",
+        "The tuition fee for B.Tech at NIT Jalandhar depends on the category of the student. Hostel and mess charges are additional. You can check the full fee structure here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>B.Tech Fee Details</a>.",
+        "For a detailed breakdown of the semester-wise fee structure, including tuition, hostel, and miscellaneous fees, refer to the official document here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>NIT Jalandhar Fees</a>.",
+        "The hostel fee at NIT Jalandhar is separate from the tuition fee and includes room rent, mess charges, and other amenities. You can check the exact amount in the official fee structure here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Hostel Fee Details</a>.",
+        "If you are looking for the admission fee and semester fees at NIT Jalandhar, you can refer to the official fee structure document available here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Semester Fee Details</a>.",
+        "NIT Jalandhar releases the official fee structure for each academic year, which includes tuition fees, hostel fees, and other expenses. Check the latest details here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Complete Fee Structure</a>.",
+        "You can find the complete fee details for all programs at NIT Jalandhar, including category-wise concessions and scholarships, in the official document: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Detailed Fee Breakdown</a>."
+      ]
+    },
+
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "What scholarships are available at NIT Jalandhar?",
+        "Does NIT Jalandhar offer any scholarships?",
+        "How can I apply for a scholarship at NIT Jalandhar?",
+        "Are there any financial aid options at NIT Jalandhar?",
+        "What are the eligibility criteria for scholarships at NIT Jalandhar?",
+        "Where can I find details about scholarships at NIT Jalandhar?"
+      ],
+      "responses": [
+        "NIT Jalandhar offers various scholarship schemes to support students financially. These include Central Government scholarships, UGC scholarships, State Government scholarships, and other schemes. You can check the details and apply for scholarships using the links below:  \n\n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c893caead2fd9414787188?category=newpage' target='_blank'>Central Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c89f76ead2fd94147ac927?category=newpage' target='_blank'>UGC Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a36bead2fd94147c0f9a?category=newpage' target='_blank'>State Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a43bead2fd94147c3e11?category=newpage' target='_blank'>Other Scholarship Schemes</a>  \n\nMake sure to check the eligibility criteria and deadlines before applying."
+      ]
     }
+    
   ]
 }
