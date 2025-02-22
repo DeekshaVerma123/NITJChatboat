@@ -1,6 +1,52 @@
 {
   "intents": [
     {
+      "tag": "faculty",
+      "patterns": [
+        "Who are the faculty members at NIT Jalandhar?",
+        "Tell me about the professors at NIT Jalandhar.",
+        "How experienced are the faculty members at NIT Jalandhar?",
+        "Where can I find details about NIT Jalandhar faculty?",
+        "Does NIT Jalandhar have good faculty?",
+        "Who are the HODs of different departments at NIT Jalandhar?",
+        "How can I contact a professor at NIT Jalandhar?",
+        "Where can I find the faculty directory of NIT Jalandhar?"
+      ],
+      "responses": [
+        "NIT Jalandhar has a team of highly qualified and experienced faculty members across various departments. You can explore the faculty list here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>NIT Jalandhar Faculty</a>.",
+        "The faculty at NIT Jalandhar consists of experienced professors, associate professors, and assistant professors who contribute to academic excellence and research. Learn more here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty at NIT Jalandhar</a>.",
+        "The faculty members at NIT Jalandhar have extensive academic and research experience, contributing to high-quality education and innovation. Check their profiles here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Profiles</a>.",
+        "You can contact faculty members at NIT Jalandhar through their official email IDs provided in the faculty directory. Find the details here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Directory</a>.",
+        "Yes, NIT Jalandhar has well-qualified faculty members with expertise in various engineering and research fields. Explore more about them here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Information</a>.",
+        "The Heads of Departments (HODs) at NIT Jalandhar oversee academic and administrative activities within their respective departments. Check the department heads here: <a href='https://www.nitj.ac.in/index.php/nitj_departments' target='_blank'>NIT Jalandhar HODs</a>."
+      ]
+    },    
+    {
+      "tag": "NIT",
+      "patterns": [
+        "Tell me about NIT Jalandhar",
+        "What is the ranking of NIT Jalandhar?",
+        "Where is NIT Jalandhar located?",
+        "What are the facilities available at NIT Jalandhar?",
+        "How is student life at NIT Jalandhar?",
+        "What extracurricular activities does NIT Jalandhar offer?",
+        "What are the research opportunities at NIT Jalandhar?",
+        "How is the infrastructure of NIT Jalandhar?",
+        "Is NIT Jalandhar a good institute?"
+      ],
+      "responses": [
+        "NIT Jalandhar, officially known as Dr. B.R. Ambedkar National Institute of Technology Jalandhar, is one of the premier engineering institutes in India. Learn more here: <a href='https://www.nitj.ac.in/' target='_blank'>About NIT Jalandhar</a>.",
+        "NIT Jalandhar has been ranked in the 2025 THE (Times Higher Education) Engineering and Technology Rankings in the band of 801-1000. It is also placed in the QS Asia University Rankings 2025 in the band of 661-680 and holds the 202nd position in Southern Asia. Check detailed rankings here: <a href='https://www.nitj.ac.in/admin/ranking.html' target='_blank'>NIT Jalandhar Rankings</a>.",
+        "NIT Jalandhar is situated in Punjab, India, and is well-connected by road and rail. Get directions and details here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Location</a>.",
+        "NIT Jalandhar offers excellent facilities, including modern labs, a well-stocked library, and comfortable hostels. Learn about the infrastructure here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Facilities</a>.",
+        "Student life at NIT Jalandhar is vibrant, with various clubs, fests, and events that ensure a balanced academic and social life. Learn more here: <a href='https://www.nitj.ac.in/' target='_blank'>Student Life at NIT Jalandhar</a>.",
+        "NIT Jalandhar encourages students to participate in extracurricular activities, including sports, cultural events, and technical fests. Explore more here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Extracurricular Activities</a>.",
+        "The institute promotes research and innovation through various centers and industry collaborations. Find research opportunities here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Research</a>.",
+        "The campus is well-equipped with modern infrastructure, including research labs, lecture halls, and sports facilities. Learn more about the campus here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Campus</a>.",
+        "Yes, NIT Jalandhar is among the top NITs in India, known for its quality education, excellent infrastructure, and strong industry connections. Find out more here: <a href='https://www.nitj.ac.in/' target='_blank'>Why Choose NIT Jalandhar?</a>."
+      ]
+    },    
+    {
       "tag": "greeting",
       "patterns": [
         "Hi",
@@ -53,23 +99,6 @@
       ],
       "responses": [
         "The holiday schedule varies each year. You can check the academic calendar for details on semester breaks and special holidays."
-      ]
-    },
-    {
-      "tag": "faculty",
-      "patterns": [
-        "Do you know the teachers ?",
-        "Who are the teachers ?",
-        "Can you tell more about teachers?",
-        "Tell me about teachers  ",
-        "more info on teachers",
-        "what are the teachers ?",
-        "tell more about the teachers",
-        "narula teachers",
-        "who is the principal and what about the placement officer??" 
-      ],
-      "responses": [
-        "Our Principal is Dr. Maitreyi Ray Kanjilal. The Placement Cell members include Biswarup Bhattacharjee, Abhijit Nandy, and Debanjan Mitra."
       ]
     },
     {
