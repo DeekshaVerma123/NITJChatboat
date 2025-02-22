@@ -4,7 +4,7 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
+        "Hey",       
         "How are you",
         "Is anyone there?",
         "Hello",
@@ -46,12 +46,14 @@
         "tell more about holidays",
         "holidays when ???",
         "which days are holidays ?",
-        "How many days can we get after seach sem ?" ,
+        "How many days can we get after each semester ?",
         "Can we get study leave ?",
         "what are the biggest holidays we can get ??",
-        "Are there any department wise special holiday ?"
+        "Are there any department-wise special holidays ?"
       ],
-      "responses": [""]
+      "responses": [
+        "The holiday schedule varies each year. You can check the academic calendar for details on semester breaks and special holidays."
+      ]
     },
     {
       "tag": "faculty",
@@ -64,10 +66,10 @@
         "what are the teachers ?",
         "tell more about the teachers",
         "narula teachers",
-        "who is the the principal and what about the placement officer??" 
+        "who is the principal and what about the placement officer??" 
       ],
       "responses": [
-        "Our Prinicipal is Dr. Maitreyi Ray Kanjilal \n Our Placement Cell has Biswarup Bhattacharjee , Abhijit Nandy , Debanjan Mitra. "
+        "Our Principal is Dr. Maitreyi Ray Kanjilal. The Placement Cell members include Biswarup Bhattacharjee, Abhijit Nandy, and Debanjan Mitra."
       ]
     },
     {
@@ -78,14 +80,16 @@
         "More info on BTECH please",
         "What is MTECH ?",
         "What is BCA ?",
-        "When do BTECH gets completed ?",
+        "When do BTECH students graduate?",
         "How long does MCA take ?",
-        "which Course are best here ?" ,
-        "what about the fees Stucture ?" ,
-        "Are there any medical course ?" ,
-        "how many time will take to complete those course ?"
+        "Which course is best here ?",
+        "What about the fees structure ?",
+        "Are there any medical courses ?",
+        "How much time does it take to complete these courses?"
       ],
-      "responses": ["Course related queries", "MCA takes 2years"]
+      "responses": [
+        "Our college offers B.Tech, M.Tech, MCA, and various certification courses. MCA takes 2 years to complete."
+      ]
     },
     {
       "tag": "funny",
@@ -102,62 +106,17 @@
     {
       "tag": "result",
       "patterns": [
-        "WHAT is my SGPA this sem ?",
-        "What is my CGPA this sem",
+        "What is my SGPA this semester?",
+        "What is my CGPA this semester?",
         "Do you know my result?",
         "Do you know my CGPA?",
-        "Do you know my curent cgpa?",
-        "tell me my cgpa?",
-        "tell me my curent sgpa?",
-        "tell me my result",
-        "what is my result"
+        "Do you know my current CGPA?",
+        "Tell me my CGPA?",
+        "Tell me my current SGPA?",
+        "Tell me my result",
+        "What is my result?"
       ],
-      "responses": ["tell me your student id , example : \n434121010021"]
-    },
-    {
-      "tag": "admission_eligibility",
-      "patterns": [
-        "How can I apply for admission?",
-        "What are the eligibility criteria for B.Tech/M.Tech/MBA programs?",
-        "What is the cutoff for admission this year?",
-        "Is there any entrance exam for admission?",
-        "What is the admission process for foreign students?",
-        "When will the admission forms be available?",
-        "Can I apply for multiple courses at the same time?"
-      ],
-      "responses": [
-        "You can apply for admission by visiting our official college website and filling out the application form.",
-        "The eligibility criteria vary for different programs. For B.Tech, a valid JEE score is required. For M.Tech, you need a GATE score, and for MBA, a CAT/MAT score is needed.",
-        "The cutoff for admission changes every year based on competition. Please check our official website for the latest cutoff details.",
-        "Yes, entrance exams like JEE, GATE, and CAT are required depending on the program.",
-        "Foreign students can apply through the international admissions portal available on our website.",
-        "Admission forms are usually available from March to June. Please check the website for exact dates.",
-        "Yes, you can apply for multiple courses, but separate applications may be required."
-      ]
-    },
-    {
-      "tag": "course_curriculum_details",
-      "patterns": [
-        "What courses are offered at the college?",
-        "Can you provide the syllabus for the IT branch?",
-        "How many semesters are there in B.Tech?",
-        "What are the elective subjects available in the third year?",
-        "What is the course duration for different programs?",
-        "Are there any short-term certification courses?",
-        "What is the marking scheme for the semester exams?",
-        "Can I change my branch after the first year?"
-      ],
-      "responses": [
-        "Our college offers various undergraduate and postgraduate courses in engineering, management, and applied sciences.",
-        "You can find the syllabus for the IT branch on our official website under the academics section.",
-        "B.Tech is a four-year program divided into eight semesters.",
-        "Elective subjects in the third year vary based on specialization. Please check the academic curriculum for details.",
-        "The duration of courses varies: B.Tech - 4 years, M.Tech - 2 years, MBA - 2 years.",
-        "Yes, the college offers various short-term certification courses in emerging technologies.",
-        "The marking scheme includes internal assessments, mid-semester exams, and end-semester exams, with a combination of theoretical and practical evaluations.",
-        "Yes, branch change is allowed after the first year based on academic performance and seat availability."
-      ]
+      "responses": ["Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."]
     }
   ]
 }
-

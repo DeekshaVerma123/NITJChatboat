@@ -7,6 +7,7 @@ let apiURL = "";
 function toggleChatBot() {
   chatbotFigure.classList.toggle("hidden");
 }
+
 chatForm.addEventListener("submit", (e) => {
   e.preventDefault();
 
@@ -38,7 +39,28 @@ function addMessage(message, msgtype) {
   const chatMessage = document.createElement("div");
   chatMessage.classList.add("chat-message");
   chatMessage.classList.add(`${msgtype}-message`);
-  chatMessage.innerText = message;
+
+  const linkRegex = /<a\s+href=[\'"]?([^"\'>]+)[\'"]?>/i; // Improved regex
+
+  if (linkRegex.test(message)) {
+    const tempDiv = document.createElement("div");
+    tempDiv.innerHTML = message;
+    const link = tempDiv.querySelector("a");
+
+    if (link) {
+      chatMessage.appendChild(link);
+
+      link.addEventListener("click", (event) => {
+        event.preventDefault();
+        window.open(link.href, "_blank");
+      });
+    } else {
+      chatMessage.innerHTML = message; // Fallback if no link found after parsing
+    }
+  } else {
+    chatMessage.innerHTML = message; // No link, set innerHTML as before
+  }
+
   document.querySelector(".chat-messages").appendChild(chatMessage);
   document.querySelector(".chat-messages").scrollTop +=
     chatMessage.getBoundingClientRect().y + 20;
@@ -50,13 +72,13 @@ function addPDFBtn(data) {
   chatMessage.classList.add("chat-message");
   chatMessage.classList.add(`incoming-message`);
   chatMessage.classList.add(`file-message`);
-  chatMessage.innerText = data.filename;
+  chatMessage.innerHTML = data.filename;
   console.log(data.link);
   chatMessage.onclick = (e) => {
     window.open(data.link);
   };
   document.querySelector(".chat-messages").appendChild(chatMessage);
   document.querySelector(".chat-messages").scrollTop +=
-    chatMessage.getBoundingClientRect().y + 30;
+    chatMessage.getBoundingClientRect().y + 10;
   chatInput.value = "";
 }
