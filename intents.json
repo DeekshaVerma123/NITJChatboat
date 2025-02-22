@@ -1,6 +1,71 @@
 {
   "intents": [
     {
+      "tag": "hostel",
+      "patterns": [
+        "How can I apply for hostel accommodation at NIT Jalandhar?",
+        "What are the hostel fees at NIT Jalandhar?",
+        "Tell me about the hostel facilities at NIT Jalandhar.",
+        "Where can I pay the hostel fees for NIT Jalandhar?",
+        "How do I reserve a hostel room at NIT Jalandhar?",
+        "Are there any rules for hostel accommodation at NIT Jalandhar?",
+        "How can I contact the hostel staff at NIT Jalandhar?"
+      ],
+      "responses": [
+        "To reserve hostel accommodation, students must complete the Online Hostel Allotment Process (OHAP) via the portal. The link to book your room will be provided on the official website: <a href='https://guesthouse.nitj.ac.in' target='_blank'>Hostel Reservation Portal</a>.",
+        "The hostel fees at NIT Jalandhar are Rs. 35,500, which includes hostel admission fee, mess caution money, service charge, and mess advance. You can find more information about the payment and fee structure here: <a href='https://www.nitj.ac.in/admin/hostels.html' target='_blank'>Hostel Fees Details</a>.",
+        "For hostel rules and guidelines, you can refer to the official document here: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html#hostelrules' target='_blank'>Hostel Rules and Guidelines</a>.",
+        "In case of any issues with the hostel allotment process, students can contact the respective hostel staff. You can find the details of hostel staff here: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html' target='_blank'>Hostel Staff Contact Information</a>.",
+        "The Online Hostel Allotment Process (OHAP) allows you to book a room for the hostel accommodation. Please ensure you upload all required documents during the process. For more details, check the steps here: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html' target='_blank'>Hostel Booking Process</a>.",
+        "For any queries related to the Online Hostel Allotment Process, feel free to contact the hostel staff at hostels@nitj.ac.in. Detailed instructions are available on the official hostel page: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html' target='_blank'>Hostel Allotment Process</a>."
+      ]
+    },
+    {
+      "tag": "campus",
+      "patterns": [
+        "What facilities are available on the NIT Jalandhar campus?",
+        "Tell me about the infrastructure at NIT Jalandhar.",
+        "What are the amenities provided at NIT Jalandhar campus?",
+        "Is there a guest house at NIT Jalandhar?",
+        "What types of accommodation options are available on campus?",
+        "Are there recreational facilities on the NIT Jalandhar campus?",
+        "Tell me about the sports facilities at NIT Jalandhar."
+      ],
+      "responses": [
+        "The NIT Jalandhar campus is equipped with various state-of-the-art facilities including hostels, sports amenities, and recreational areas. You can find more details about the campus infrastructure here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>NIT Jalandhar Campus Amenities</a>.",
+        "The campus has various facilities like academic blocks, hostels, mess, sports facilities, and a guest house. You can explore the details of the campus infrastructure here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Campus Overview</a>.",
+        "Yes, NIT Jalandhar has a guest house facility available on campus. More details about the guest house and other campus amenities can be found here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Guest House Information</a>.",
+        "NIT Jalandhar offers a variety of sports and recreational facilities to its students. You can check out the details of these facilities on the campus infrastructure page: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Sports and Recreation at NIT Jalandhar</a>.",
+        "For information about accommodation options like hostels and guest houses, you can visit this page: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Campus Accommodation</a>.",
+        "The NIT Jalandhar campus has various recreational facilities like sports complexes, gymnasium, and more to support student well-being. For more information, visit: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Recreational Facilities</a>."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is the placement process at NIT Jalandhar?",
+        "How can I get placed through NIT Jalandhar?",
+        "Tell me about the T&P Centre at NIT Jalandhar.",
+        "What companies recruit from NIT Jalandhar?",
+        "Does NIT Jalandhar help with internships and placements?",
+        "How can I apply for internships or placements at NIT Jalandhar?",
+        "How successful is the placement rate at NIT Jalandhar?",
+        "What is the role of T&P Centre in the recruitment process at NIT Jalandhar?",
+        "How are placements coordinated at NIT Jalandhar?"
+      ],
+      "responses": [
+        "The Training & Placement (T&P) Centre at NIT Jalandhar conducts all recruitment-related activities. A dedicated team of professors, student coordinators, and staff manage the placement and internship procedures. For more details, visit: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>NIT Jalandhar Placement Information</a>.",
+        "NIT Jalandhar has a strong T&P Centre that mentors and grooms students with industry-required skill sets through regular sessions, tests, and soft-skill development programs. Find out more about the placement process here: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>Placement Process at NIT Jalandhar</a>.",
+        "The T&P Centre at NIT Jalandhar coordinates all placement and internship processes. This includes liaising with companies, conducting tests, interviews, and managing recruiter-student coordination. Check more about this process here: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>T&P Centre Details</a>.",
+        "Yes, NIT Jalandhar assists students in securing internships and placements. The T&P Centre invites companies, arranges Pre-Placement Talks (PPT), and conducts interviews. Learn more about internship opportunities here: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>Internship and Placement Information</a>.",
+        "The placement rate at NIT Jalandhar is strong, with many reputed companies visiting the campus for recruitment. The T&P Centre ensures that students are well-prepared for the recruitment process. For more details, visit: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>Placement Details</a>.",
+        "The T&P Centre at NIT Jalandhar sends invitations to companies and organizes the recruitment process, including interviews, tests, and Pre-Placement Talks. It coordinates the entire process from initiation to the final selection. More information can be found here: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>T&P Centre Overview</a>.",
+        "Recruiters are invited by the T&P Centre to conduct the recruitment process, which includes multiple rounds such as tests and interviews. A Pre-Placement Talk (PPT) is often organized for eligible students before the recruitment process begins. For more info, visit: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>Recruitment at NIT Jalandhar</a>.",
+        "The T&P Centre plays a crucial role in coordinating recruitment at NIT Jalandhar. It manages the communication with companies, schedules placement activities, and supports students throughout the placement process. Visit this link for further details: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>T&P Process at NIT Jalandhar</a>.",
+        "You can also access the detailed placement brochure of NIT Jalandhar here: <a href='https://v1.nitj.ac.in/nitj_files/links/pb1_68544.pdf' target='_blank'>Placement Brochure</a>."
+      ]
+    },
+    {
       "tag": "faculty",
       "patterns": [
         "Who are the faculty members at NIT Jalandhar?",
@@ -20,7 +85,7 @@
         "Yes, NIT Jalandhar has well-qualified faculty members with expertise in various engineering and research fields. Explore more about them here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Information</a>.",
         "The Heads of Departments (HODs) at NIT Jalandhar oversee academic and administrative activities within their respective departments. Check the department heads here: <a href='https://www.nitj.ac.in/index.php/nitj_departments' target='_blank'>NIT Jalandhar HODs</a>."
       ]
-    },    
+    },
     {
       "tag": "NIT",
       "patterns": [
@@ -45,12 +110,12 @@
         "The campus is well-equipped with modern infrastructure, including research labs, lecture halls, and sports facilities. Learn more about the campus here: <a href='https://www.nitj.ac.in/' target='_blank'>NIT Jalandhar Campus</a>.",
         "Yes, NIT Jalandhar is among the top NITs in India, known for its quality education, excellent infrastructure, and strong industry connections. Find out more here: <a href='https://www.nitj.ac.in/' target='_blank'>Why Choose NIT Jalandhar?</a>."
       ]
-    },    
+    },
     {
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",       
+        "Hey",
         "How are you",
         "Is anyone there?",
         "Hello",
@@ -145,7 +210,9 @@
         "Tell me my result",
         "What is my result?"
       ],
-      "responses": ["Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."]
+      "responses": [
+        "Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."
+      ]
     }
   ]
 }
