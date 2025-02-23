@@ -7,21 +7,21 @@ from torch.utils.data import Dataset, DataLoader
 from neural_net import NeuralNet
 
 
-with open('intents.json', 'r') as json_data:
+with open("intents.json", "r", encoding="utf-8") as json_data:
     intents = json.load(json_data)
 
 
 all_words = []
-tags = [intent['tag'] for intent in intents['intents']]
+tags = [intent["tag"] for intent in intents["intents"]]
 xy = []
-puncts = ['?', '!', '.', ',']
+puncts = ["?", "!", ".", ","]
 
 
-for intent in intents['intents']:
-    for pattern in intent['patterns']:
+for intent in intents["intents"]:
+    for pattern in intent["patterns"]:
         w = tokenize(pattern)
         all_words.extend(w)
-        xy.append((w, intent['tag']))
+        xy.append((w, intent["tag"]))
 
 all_words = [stem(w) for w in all_words if w not in puncts]
 
@@ -33,7 +33,7 @@ X_train = []
 Y_train = []
 
 
-for (pattern_sentence, tag) in xy:
+for pattern_sentence, tag in xy:
     bag = bag_of_words(pattern_sentence, all_words)
     X_train.append(bag)
     label = tags.index(tag)
@@ -59,8 +59,7 @@ class ChatDataSet(Dataset):
 
 
 dataset = ChatDataSet()
-train_loader = DataLoader(dataset=dataset, batch_size=8,
-                          shuffle=True, num_workers=0)
+train_loader = DataLoader(dataset=dataset, batch_size=8, shuffle=True, num_workers=0)
 
 
 input_size = len(X_train[0])
@@ -68,7 +67,7 @@ hidden_size = 8
 output_size = len(tags)
 
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = NeuralNet(input_size, hidden_size, output_size)
 model.to(device)
 
@@ -78,7 +77,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=0.0015)
 
 
 for epoch in range(1000):
-    for (words, labels) in train_loader:
+    for words, labels in train_loader:
         words = words.to(device)
         labels = labels.to(device)
         labels = labels.to(torch.long)
@@ -88,11 +87,11 @@ for epoch in range(1000):
         loss.backward()
         optimizer.step()
 
-    if (epoch+1) % 100 == 0:
-        print(f'epoch {epoch+1}/{8}, loss={loss.item():.4f}')
+    if (epoch + 1) % 100 == 0:
+        print(f"epoch {epoch+1}/{8}, loss={loss.item():.4f}")
 
 
-print(f'final loss,loss={loss.item():.4f}')
+print(f"final loss,loss={loss.item():.4f}")
 
 
 data = {
@@ -101,10 +100,10 @@ data = {
     "output_size": output_size,
     "hidden_size": hidden_size,
     "all_words": all_words,
-    "tags": tags
+    "tags": tags,
 }
 
 
-FILE = 'data.pth'
+FILE = "data.pth"
 torch.save(data, FILE)
-print(f'training complete. File saved to {FILE}')
+print(f"training complete. File saved to {FILE}")
