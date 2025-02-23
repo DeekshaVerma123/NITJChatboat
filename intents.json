@@ -210,7 +210,9 @@
         "Tell me my result",
         "What is my result?"
       ],
-      "responses": ["Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."]
+      "responses": [
+        "Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."
+      ]
     },
     {
       "tag": "admission",
@@ -275,6 +277,5 @@
         "NIT Jalandhar offers various scholarship schemes to support students financially. These include Central Government scholarships, UGC scholarships, State Government scholarships, and other schemes. You can check the details and apply for scholarships using the links below:  \n\n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c893caead2fd9414787188?category=newpage' target='_blank'>Central Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c89f76ead2fd94147ac927?category=newpage' target='_blank'>UGC Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a36bead2fd94147c0f9a?category=newpage' target='_blank'>State Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a43bead2fd94147c3e11?category=newpage' target='_blank'>Other Scholarship Schemes</a>  \n\nMake sure to check the eligibility criteria and deadlines before applying."
       ]
     }
-    
   ]
 }

@@ -4,19 +4,19 @@ import torch
 from neural_net import NeuralNet
 from flask_server.university.nlp_utils import bag_of_words, tokenize
 
-with open('intents.json', 'r') as json_data:
+with open("intents.json", "r", encoding="utf-8") as json_data:
     intents = json.load(json_data)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 FILE = "data.pth"
 data = torch.load(FILE)
 
-input_size = data['input_size']
-output_size = data['output_size']
-hidden_size = data['hidden_size']
-all_words = data['all_words']
-tags = data['tags']
-model_state = data['model_state']
+input_size = data["input_size"]
+output_size = data["output_size"]
+hidden_size = data["hidden_size"]
+all_words = data["all_words"]
+tags = data["tags"]
+model_state = data["model_state"]
 
 model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
@@ -40,10 +40,10 @@ def chatbot_response(sentence):
     prob = probs[0][predicted.item()]
 
     if prob.item() > 0.75:
-        for intent in intents['intents']:
-            if tag == intent['tag']:
-                return (random.choice(intent['responses']), tag)
-    return ("I am unable to understand that..", 'greetings')
+        for intent in intents["intents"]:
+            if tag == intent["tag"]:
+                return (random.choice(intent["responses"]), tag)
+    return ("I am unable to understand that..", "greetings")
 
 
-print('hi')
+print("hi")
