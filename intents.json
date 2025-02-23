@@ -9,10 +9,15 @@
         "Where can I pay the hostel fees for NIT Jalandhar?",
         "How do I reserve a hostel room at NIT Jalandhar?",
         "Are there any rules for hostel accommodation at NIT Jalandhar?",
-        "How can I contact the hostel staff at NIT Jalandhar?"
+        "How can I contact the hostel staff at NIT Jalandhar?",
+        "Hostel fees?",
+        "How to book a hostel room?",
+        "What’s the hostel like?",
+        "Hostel rules?",
+        "Contact for hostel issues?"
       ],
       "responses": [
-        "To reserve hostel accommodation, students must complete the Online Hostel Allotment Process (OHAP) via the portal. The link to book your room will be provided on the official website: <a href='https://guesthouse.nitj.ac.in' target='_blank'>Hostel Reservation Portal</a>.",
+        "To reserve hostel accommodation, students must complete the Online Hostel Allotment Process (OHAP) via the portal. The link to book your room will be provided on the official website: <a href='<a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html' target='_blank'>Hostel Reservation Portal</a>.",
         "The hostel fees at NIT Jalandhar are Rs. 35,500, which includes hostel admission fee, mess caution money, service charge, and mess advance. You can find more information about the payment and fee structure here: <a href='https://www.nitj.ac.in/admin/hostels.html' target='_blank'>Hostel Fees Details</a>.",
         "For hostel rules and guidelines, you can refer to the official document here: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html#hostelrules' target='_blank'>Hostel Rules and Guidelines</a>.",
         "In case of any issues with the hostel allotment process, students can contact the respective hostel staff. You can find the details of hostel staff here: <a href='https://www.nitj.ac.in/lifeAtNitj/hostel.html' target='_blank'>Hostel Staff Contact Information</a>.",
@@ -29,15 +34,20 @@
         "Is there a guest house at NIT Jalandhar?",
         "What types of accommodation options are available on campus?",
         "Are there recreational facilities on the NIT Jalandhar campus?",
-        "Tell me about the sports facilities at NIT Jalandhar."
+        "Tell me about the sports facilities at NIT Jalandhar.",
+        "Campus facilities?",
+        "What’s the campus like?",
+        "Sports on campus?",
+        "Guest house details?",
+        "Recreation options?"
       ],
       "responses": [
-        "The NIT Jalandhar campus is equipped with various state-of-the-art facilities including hostels, sports amenities, and recreational areas. You can find more details about the campus infrastructure here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>NIT Jalandhar Campus Amenities</a>.",
-        "The campus has various facilities like academic blocks, hostels, mess, sports facilities, and a guest house. You can explore the details of the campus infrastructure here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Campus Overview</a>.",
-        "Yes, NIT Jalandhar has a guest house facility available on campus. More details about the guest house and other campus amenities can be found here: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Guest House Information</a>.",
-        "NIT Jalandhar offers a variety of sports and recreational facilities to its students. You can check out the details of these facilities on the campus infrastructure page: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Sports and Recreation at NIT Jalandhar</a>.",
-        "For information about accommodation options like hostels and guest houses, you can visit this page: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Campus Accommodation</a>.",
-        "The NIT Jalandhar campus has various recreational facilities like sports complexes, gymnasium, and more to support student well-being. For more information, visit: <a href='https://www.nitj.ac.in/lifeAtNitj/Guest%20house.html' target='_blank'>Recreational Facilities</a>."
+        "The NIT Jalandhar campus is equipped with various state-of-the-art facilities including hostels, sports amenities, and recreational areas. You can find more details about the campus infrastructure here: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>NIT Jalandhar Campus Amenities</a>.",
+        "The campus has various facilities like academic blocks, hostels, mess, sports facilities, and a guest house. You can explore the details of the campus infrastructure here: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>Campus Overview</a>.",
+        "Yes, NIT Jalandhar has a guest house facility available on campus. More details about the guest house and other campus amenities can be found here: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>Guest House Information</a>.",
+        "NIT Jalandhar offers a variety of sports and recreational facilities to its students. You can check out the details of these facilities on the campus infrastructure page: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>Sports and Recreation at NIT Jalandhar</a>.",
+        "For information about accommodation options like hostels and guest houses, you can visit this page: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>Campus Accommodation</a>.",
+        "The NIT Jalandhar campus has various recreational facilities like sports complexes, gymnasium, and more to support student well-being. For more information, visit: <a href='https://en.wikipedia.org/wiki/Dr._B._R._Ambedkar_National_Institute_of_Technology_Jalandhar#:~:text=The%20Institute%20campus%20is%20widespread,and%20staff%2C%20plus%20several%20amenities.' target='_blank'>Recreational Facilities</a>."
       ]
     },
     {
@@ -51,7 +61,13 @@
         "How can I apply for internships or placements at NIT Jalandhar?",
         "How successful is the placement rate at NIT Jalandhar?",
         "What is the role of T&P Centre in the recruitment process at NIT Jalandhar?",
-        "How are placements coordinated at NIT Jalandhar?"
+        "How are placements coordinated at NIT Jalandhar?",
+        "Tell me about placements.",
+        "Placements at NIT Jalandhar?",
+        "How good are placements?",
+        "Job opportunities at NIT Jalandhar?",
+        "Tell me about internship options.",
+        "Placement stats?"
       ],
       "responses": [
         "The Training & Placement (T&P) Centre at NIT Jalandhar conducts all recruitment-related activities. A dedicated team of professors, student coordinators, and staff manage the placement and internship procedures. For more details, visit: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>NIT Jalandhar Placement Information</a>.",
@@ -75,14 +91,20 @@
         "Does NIT Jalandhar have good faculty?",
         "Who are the HODs of different departments at NIT Jalandhar?",
         "How can I contact a professor at NIT Jalandhar?",
-        "Where can I find the faculty directory of NIT Jalandhar?"
+        "Where can I find the faculty directory of NIT Jalandhar?",
+        "Tell me about faculties.",
+        "Faculty details?",
+        "Who teaches at NIT Jalandhar?",
+        "Tell me about the teachers.",
+        "Professors at NIT Jalandhar?",
+        "Faculty experience?"
       ],
       "responses": [
-        "NIT Jalandhar has a team of highly qualified and experienced faculty members across various departments. You can explore the faculty list here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>NIT Jalandhar Faculty</a>.",
-        "The faculty at NIT Jalandhar consists of experienced professors, associate professors, and assistant professors who contribute to academic excellence and research. Learn more here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty at NIT Jalandhar</a>.",
-        "The faculty members at NIT Jalandhar have extensive academic and research experience, contributing to high-quality education and innovation. Check their profiles here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Profiles</a>.",
-        "You can contact faculty members at NIT Jalandhar through their official email IDs provided in the faculty directory. Find the details here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Directory</a>.",
-        "Yes, NIT Jalandhar has well-qualified faculty members with expertise in various engineering and research fields. Explore more about them here: <a href='https://www.nitj.ac.in/index.php/nitj_cinfo/index/14' target='_blank'>Faculty Information</a>.",
+        "NIT Jalandhar has a team of highly qualified and experienced faculty members across various departments. You can explore the faculty list here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>NIT Jalandhar Faculty</a>.",
+        "The faculty at NIT Jalandhar consists of experienced professors, associate professors, and assistant professors who contribute to academic excellence and research. Learn more here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty at NIT Jalandhar</a>.",
+        "The faculty members at NIT Jalandhar have extensive academic and research experience, contributing to high-quality education and innovation. Check their profiles here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Profiles</a>.",
+        "You can contact faculty members at NIT Jalandhar through their official email IDs provided in the faculty directory. Find the details here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Directory</a>.",
+        "Yes, NIT Jalandhar has well-qualified faculty members with expertise in various engineering and research fields. Explore more about them here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Information</a>.",
         "The Heads of Departments (HODs) at NIT Jalandhar oversee academic and administrative activities within their respective departments. Check the department heads here: <a href='https://www.nitj.ac.in/index.php/nitj_departments' target='_blank'>NIT Jalandhar HODs</a>."
       ]
     },
@@ -97,7 +119,12 @@
         "What extracurricular activities does NIT Jalandhar offer?",
         "What are the research opportunities at NIT Jalandhar?",
         "How is the infrastructure of NIT Jalandhar?",
-        "Is NIT Jalandhar a good institute?"
+        "Is NIT Jalandhar a good institute?",
+        "NIT Jalandhar details?",
+        "Tell me about the institute.",
+        "Ranking of NIT Jalandhar?",
+        "Student life at NIT?",
+        "Research at NIT Jalandhar?"
       ],
       "responses": [
         "NIT Jalandhar, officially known as Dr. B.R. Ambedkar National Institute of Technology Jalandhar, is one of the premier engineering institutes in India. Learn more here: <a href='https://www.nitj.ac.in/' target='_blank'>About NIT Jalandhar</a>.",
@@ -119,7 +146,11 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Hi there",
+        "Hey, you there?",
+        "Hello, anyone?",
+        "Good morning"
       ],
       "responses": [
         "Hey :-)",
@@ -130,7 +161,14 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Later!",
+        "Take care"
+      ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -144,23 +182,30 @@
         "Thank you",
         "That's helpful",
         "Thank's a lot!",
-        "Okay"
+        "Okay",
+        "Appreciate it",
+        "Thanks so much",
+        "Cool, thanks"
       ],
       "responses": ["Happy to help!", "Any time!", "My pleasure"]
     },
     {
       "tag": "holidays",
       "patterns": [
-        "When are holidays ? ",
+        "When are holidays?",
         "What kinds of holidays are there?",
         "What holidays do we have?",
-        "tell more about holidays",
-        "holidays when ???",
-        "which days are holidays ?",
-        "How many days can we get after each semester ?",
-        "Can we get study leave ?",
-        "what are the biggest holidays we can get ??",
-        "Are there any department-wise special holidays ?"
+        "Tell me more about holidays",
+        "Holidays when???",
+        "Which days are holidays?",
+        "How many days can we get after each semester?",
+        "Can we get study leave?",
+        "What are the biggest holidays we can get??",
+        "Are there any department-wise special holidays?",
+        "Holiday schedule?",
+        "When’s the next holiday?",
+        "Break after semester?",
+        "Study leave details?"
       ],
       "responses": [
         "The holiday schedule varies each year. You can check the academic calendar for details on semester breaks and special holidays."
@@ -169,20 +214,25 @@
     {
       "tag": "courses",
       "patterns": [
-        "Which Courses are offered here",
-        "tell me more about BCA",
+        "Which courses are offered here?",
+        "Tell me more about BCA",
         "More info on BTECH please",
-        "What is MTECH ?",
-        "What is BCA ?",
+        "What is MTECH?",
+        "What is BCA?",
         "When do BTECH students graduate?",
-        "How long does MCA take ?",
-        "Which course is best here ?",
-        "What about the fees structure ?",
-        "Are there any medical courses ?",
-        "How much time does it take to complete these courses?"
+        "How long does MCA take?",
+        "Which course is best here?",
+        "What about the fees structure?",
+        "Are there any medical courses?",
+        "How much time does it take to complete these courses?",
+        "Tell me about courses.",
+        "Courses at NIT Jalandhar?",
+        "B.Tech details?",
+        "MCA duration?",
+        "What programs are available?"
       ],
       "responses": [
-        "Our college offers B.Tech, M.Tech, MCA, and various certification courses. MCA takes 2 years to complete."
+        "Our college offers B.Tech, M.Tech, MCA, and various certification courses. Pls follow  this link to courses : <a href='https://www.nitj.ac.in/admissions/courses_offered.html' target='_blank'>Courses</a>. ."
       ]
     },
     {
@@ -190,7 +240,10 @@
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Make me laugh",
+        "Say something humorous",
+        "Got any jokes?"
       ],
       "responses": [
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
@@ -208,7 +261,13 @@
         "Tell me my CGPA?",
         "Tell me my current SGPA?",
         "Tell me my result",
-        "What is my result?"
+        "What is my result?",
+        "Show me my grades",
+        "My academic performance?",
+        "Check my CGPA",
+        "What’s my SGPA?",
+        "Results this semester?",
+        "Tell me about my grades"
       ],
       "responses": [
         "Please follow this link:<a href='https://v1.nitj.ac.in/erp/login' target='_blank'>Click here</a>."
@@ -225,7 +284,12 @@
         "Where can I find details about NIT Jalandhar admissions?",
         "What is the cutoff for admission to NIT Jalandhar?",
         "Does NIT Jalandhar have reservations for different categories?",
-        "What is the counseling process for NIT Jalandhar admissions?"
+        "What is the counseling process for NIT Jalandhar admissions?",
+        "Admission process?",
+        "How to join NIT Jalandhar?",
+        "Entrance exams for admission?",
+        "Admission cutoff?",
+        "Tell me about admissions"
       ],
       "responses": [
         "Admissions to NIT Jalandhar are primarily based on national-level entrance exams like JEE Main for B.Tech and GATE for M.Tech. Learn more about the admission process here: <a href='https://www.nitj.ac.in/admissions/index.html#btech' target='_blank'>NIT Jalandhar Admissions</a>.",
@@ -249,7 +313,12 @@
         "What is the hostel fee at NIT Jalandhar?",
         "How much do I need to pay for admission to NIT Jalandhar?",
         "What are the semester fees at NIT Jalandhar?",
-        "Can I get a detailed fee breakdown for NIT Jalandhar?"
+        "Can I get a detailed fee breakdown for NIT Jalandhar?",
+        "Fee details?",
+        "Tuition fees at NIT Jalandhar?",
+        "How much for B.Tech?",
+        "Hostel fees structure?",
+        "Semester fee amount?"
       ],
       "responses": [
         "The fee structure at NIT Jalandhar varies based on the course and category of the student. You can check the complete details, including tuition fees, hostel fees, and other charges here: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>NIT Jalandhar Fee Structure</a>.",
@@ -262,7 +331,6 @@
         "You can find the complete fee details for all programs at NIT Jalandhar, including category-wise concessions and scholarships, in the official document: <a href='https://nitj.ac.in/files/1712311414522-B.Tech%201st%20Year%20AY%202024-2025.pdf' target='_blank'>Detailed Fee Breakdown</a>."
       ]
     },
-
     {
       "tag": "scholarship",
       "patterns": [
@@ -271,7 +339,12 @@
         "How can I apply for a scholarship at NIT Jalandhar?",
         "Are there any financial aid options at NIT Jalandhar?",
         "What are the eligibility criteria for scholarships at NIT Jalandhar?",
-        "Where can I find details about scholarships at NIT Jalandhar?"
+        "Where can I find details about scholarships at NIT Jalandhar?",
+        "Scholarship options?",
+        "Financial aid at NIT?",
+        "How to get a scholarship?",
+        "Scholarship eligibility?",
+        "Tell me about scholarships"
       ],
       "responses": [
         "NIT Jalandhar offers various scholarship schemes to support students financially. These include Central Government scholarships, UGC scholarships, State Government scholarships, and other schemes. You can check the details and apply for scholarships using the links below:  \n\n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c893caead2fd9414787188?category=newpage' target='_blank'>Central Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c89f76ead2fd94147ac927?category=newpage' target='_blank'>UGC Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a36bead2fd94147c0f9a?category=newpage' target='_blank'>State Government Scholarships</a>  \n➡️ <a href='https://www.nitj.ac.in/template/index.html?id=64c8a43bead2fd94147c3e11?category=newpage' target='_blank'>Other Scholarship Schemes</a>  \n\nMake sure to check the eligibility criteria and deadlines before applying."
