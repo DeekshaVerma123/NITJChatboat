@@ -84,3 +84,8 @@ def fetch_result():
         return jsonify({"response": "Student not found", "url": ""})
 
     return jsonify({"response": response, "url": url})
+
+
+# Start the Flask server
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5000)
