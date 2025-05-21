@@ -1,11 +1,9 @@
 from flask import render_template, request, jsonify, redirect, url_for
 import requests
 from flask_server import app, db
-import flask_server.university
-from flask_server.university.models import Holidays, Course, Student, Teacher
+from flask_server.university.models import Holidays, Course, Student
 from chat import chatbot_response
 from flask_server.university.nlp_utils import course_matcher
-
 
 with app.app_context():
     db.create_all()
@@ -24,8 +22,7 @@ def normal_chat():
         if course is not None:
             course_details = Course.query.filter_by(name=course)[0]
             response = f"{course_details.name} takes {course_details.duration}"
-            link = f"http://127.0.0.1:5000/courses/syllabus/{
-                course_details.id}/"
+            link = f"http://127.0.0.1:5000/courses/syllabus/{course_details.id}/"
             return jsonify(
                 {
                     "response": response,
@@ -43,7 +40,6 @@ def normal_chat():
 
     if tag == "holidays":
         holiday = Holidays.query.first()
-        # link = f'http://127.0.0.1:5000/holidays/download/{holiday.id}/'
         link = f"http://127.0.0.1:5000/holidays/download/2/"
         response = f"Holidays for year {holiday.year} is down below"
         return jsonify(
@@ -58,9 +54,18 @@ def normal_chat():
         data = requests.get(url="http://127.0.0.1:5000/teachers/api/")
         for item in data.json():
             teacher = f"{item['name']} ({item['department']})"
-            response = response + "\n " + teacher
-
-    return jsonify({"response": response, "tag": tag})
+            response = (response + "\n " + teacher,)
+    # Handle test_media tag or any tag with media
+    return jsonify(
+        {
+            "response": response.get(
+                "text", response
+            ),  # Fallback to response if text not present
+            "tag": tag,
+            "media": response.get("media", []),  # Include media if present
+            "link": response.get("link", ""),  # Include link if present
+        }
+    )
 
 
 @app.post("/chatbot_api/result/")
@@ -69,7 +74,6 @@ def fetch_result():
     try:
         studentID = msg.strip()
         student = Student().query.get(studentID)
-        print(student)
         response = f"result of {studentID} is {student.cgpa}"
         url = ""
     except ValueError:
