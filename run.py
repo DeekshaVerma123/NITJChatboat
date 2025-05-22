@@ -1,7 +1,7 @@
 from flask import render_template, request, jsonify, redirect, url_for
 import requests
 from flask_server import app, db
-from flask_server.university.models import Holidays, Course, Student
+from flask_server.university.models import Course, Student
 from chat import chatbot_response
 from flask_server.university.nlp_utils import course_matcher
 
@@ -37,18 +37,6 @@ def normal_chat():
             courses = Course.query.all()
             for course in courses:
                 response += f"\n {course}"
-
-    if tag == "holidays":
-        holiday = Holidays.query.first()
-        link = f"http://127.0.0.1:5000/holidays/download/2/"
-        response = f"Holidays for year {holiday.year} is down below"
-        return jsonify(
-            {
-                "response": response,
-                "tag": tag,
-                "data": {"filename": holiday.file_name, "link": link},
-            }
-        )
 
     if tag == "faculty":
         data = requests.get(url="http://127.0.0.1:5000/teachers/api/")
