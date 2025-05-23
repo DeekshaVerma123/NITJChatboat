@@ -45,8 +45,21 @@ def chatbot_response(sentence):
     if prob > 0.85:  # Increased threshold
         for intent in intents["intents"]:
             if tag == intent["tag"]:
-                return (random.choice(intent["responses"]), tag)
-    return ("I am unable to understand that..", "unknown")
+                response = random.choice(intent["responses"])
+                # Normalize response to always be a dictionary
+                if isinstance(response, str):
+                    response_dict = {"text": response, "media": [], "link": ""}
+                else:
+                    response_dict = (
+                        response  # Already a dictionary with text, media, link
+                    )
+                return (response_dict, tag)
+    # Default response if confidence is too low
+    return (
+        {"text": "I am unable to understand that..", "media": [], "link": ""},
+        "unknown",
+    )
 
 
-print("hi")
+# Test the function
+print(chatbot_response("hi"))
