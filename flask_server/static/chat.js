@@ -79,14 +79,28 @@ function addMessage(message, msgtype, media = [], link = "") {
         img.style.height = "auto";
         img.style.marginTop = "10px";
         chatMessage.appendChild(img);
+        // } else if (item.type === "pdf") {
+        //   const pdfLink = document.createElement("div");
+        //   pdfLink.classList.add("file-message");
+        //   pdfLink.innerHTML = item.name;
+        //   pdfLink.style.marginTop = "10px";
+        //   pdfLink.style.cursor = "pointer";
+        //   pdfLink.style.color = "blue";
+        //   pdfLink.style.textDecoration = "underline";
+        //   pdfLink.onclick = () => {
+        //     window.open(`/${item.path}`, "_blank");
+        //   };
+        //   chatMessage.appendChild(pdfLink);
+        // }
       } else if (item.type === "pdf") {
         const pdfLink = document.createElement("div");
         pdfLink.classList.add("file-message");
-        pdfLink.innerHTML = item.name;
+        pdfLink.innerHTML = `<img src="/static/icons/pdf-icon.png" alt="PDF Icon" width="20" height="20"> ${item.name}`;
+
+        // pdfLink.innerHTML = `<i class="fas fa-file-pdf"></i> ${item.name}`; // Example with Font Awesome
+        // Or: pdfLink.innerHTML = `<img src="path/to/pdf-icon.png" alt="PDF Icon" width="20" height="20"> ${item.name}`;
         pdfLink.style.marginTop = "10px";
         pdfLink.style.cursor = "pointer";
-        pdfLink.style.color = "blue";
-        pdfLink.style.textDecoration = "underline";
         pdfLink.onclick = () => {
           window.open(`/${item.path}`, "_blank");
         };
