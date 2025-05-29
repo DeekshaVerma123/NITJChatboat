@@ -1,5 +1,5 @@
 import json
-from flask_server.university.nlp_utils import tokenize, bag_of_words
+from flask_server.university.nlp_utils import tokenize
 import numpy as np
 import torch
 import torch.nn as nn
@@ -8,6 +8,22 @@ from neural_net import NeuralNet
 from sklearn.model_selection import train_test_split
 from collections import Counter
 import random
+import nltk
+from nltk.stem.porter import PorterStemmer
+
+stemmer = PorterStemmer()
+
+def stem(word):
+    return stemmer.stem(word.lower())
+
+def bag_of_words(tokenized_sentence, all_words):
+    tokenized_sentence = [stem(w) for w in tokenized_sentence]
+    bag = np.zeros(len(all_words), dtype=np.float32)
+    for idx, w in enumerate(all_words):
+        if w in tokenized_sentence:
+            bag[idx] = 1.0
+    return bag
+
 
 # Load intents with UTF-8 encoding
 with open("intents.json", "r", encoding="utf-8") as json_data:
@@ -26,7 +42,7 @@ for intent in intents["intents"]:
         xy.append((w, intent["tag"]))
 
 # Filter rare words
-all_words = [w.lower() for w in all_words if w not in puncts]
+all_words = [stem(w.lower()) for w in all_words if w not in puncts]
 word_counts = Counter(all_words)
 all_words = [w for w in all_words if word_counts[w] >= 1]
 all_words = sorted(set(all_words))
@@ -36,7 +52,8 @@ tags = sorted(set(tags))
 # Improved augmentation
 def augment_pattern(pattern):
     words = pattern.copy()
-    key_words = set(words).intersection(set(all_words))
+    stemmed_words = [stem(w) for w in words]
+    key_words = set(stemmed_words).intersection(set(all_words))
     filler_words = ["please", "kindly", "tell", "me", "more", "about"]
 
     if random.random() > 0.5 and len(words) > 1:
