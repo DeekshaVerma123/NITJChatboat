@@ -3,13 +3,18 @@ import numpy as np
 import spacy
 from spacy.matcher import Matcher
 import nltk
+from nltk.stem.porter import PorterStemmer
 
 nltk.download("punkt")
 nltk.download("punkt_tab")
+stemmer = PorterStemmer()
 
 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
+
+def stem(word):
+    return stemmer.stem(word.lower())
 
 
 def bag_of_words(tokenized_sentence, words):
@@ -22,7 +27,7 @@ def bag_of_words(tokenized_sentence, words):
     bag   = [  0 ,    1 ,    0 ,   1 ,    0 ,    0 ,      0]
     """
     # Lowercase sentence words to match training
-    sentence_words = [word.lower() for word in tokenized_sentence]
+    sentence_words = [stem(word) for word in tokenized_sentence]
     bag = np.zeros(len(words), dtype=np.float32)
     for idx, w in enumerate(words):
         if w in sentence_words:

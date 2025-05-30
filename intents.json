@@ -258,6 +258,7 @@
         "Goodbye",
         "Catch you later",
         "Later!",
+        "okk",
         "Take care"
       ],
       "responses": [
@@ -274,6 +275,7 @@
         "That's helpful",
         "Thank's a lot!",
         "Okay",
+        "Ok",
         "Appreciate it",
         "Thanks so much",
         "Cool, thanks"
@@ -397,7 +399,7 @@
     {
       "tag": "fee_structure",
       "patterns": [
-        "What is the fee structure of NIT Jalandhar?",
+        "fee structure",
         "How much is the tuition fee at NIT Jalandhar?",
         "What are the fees for B.Tech at NIT Jalandhar?",
         "Where can I find the fee details for NIT Jalandhar?",
