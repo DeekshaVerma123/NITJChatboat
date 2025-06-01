@@ -1,6 +1,453 @@
 {
   "intents": [
     {
+      "tag": "fee_structure_overview",
+      "patterns": [
+        "What is the total fee for B.Tech?",
+        "Tell me about NIT Jalandhar BTech fees",
+        "What are the charges for BTech 2021-2025 batch?",
+        "Give an overview of NITJ B.Tech fees",
+        "Breakdown of total fee"
+      ],
+      "responses": [
+        "The fee structure includes tuition fees (varies by category/income), institutional charges (common), and a one-time security fee. Hostelers and day scholars have different total costs."
+      ]
+    },
+    {
+      "tag": "sc_st_pwd_fee",
+      "patterns": [
+        "What is the fee for SC students?",
+        "ST category fee details",
+        "PWD student fee structure",
+        "Fee for SC/ST/PWD students in NIT Jalandhar",
+        "Do SC students pay tuition fee?"
+      ],
+      "responses": [
+        "SC/ST/PWD students are exempted from tuition fees. Annual fees for hostelers: ₹56,000 in 1st year and ₹51,000 for later years. For day scholars: ₹39,000 in 1st year and ₹34,000 thereafter."
+      ]
+    },
+    {
+      "tag": "gen_obc_income_below_1lakh",
+      "patterns": [
+        "Fee for General/OBC below 1 lakh income",
+        "I have income below 1 lakh, what's the fee?",
+        "What do low income general/OBC students pay?",
+        "Gen/OBC fee if income is less than 1 lakh"
+      ],
+      "responses": [
+        "General/OBC students with income below ₹1 lakh get full tuition waiver. Their fees are the same as SC/ST/PWD students: ₹56,000 (1st year hostelers), ₹51,000 (subsequent years)."
+      ]
+    },
+    {
+      "tag": "gen_obc_income_1to5lakh",
+      "patterns": [
+        "Fee for income between 1 to 5 lakh",
+        "What is the fee for General/OBC with middle income?",
+        "I'm from OBC and income is 3 lakh, what is the fee?",
+        "Tuition fee if income is between 1 to 5 lakhs"
+      ],
+      "responses": [
+        "Students from Gen/OBC with income between ₹1 to ₹5 lakh pay a reduced tuition fee of ₹41,680/year. Total annual for hostelers: ₹97,680 (1st year), ₹92,680 (others)."
+      ]
+    },
+    {
+      "tag": "gen_obc_income_above_5lakh",
+      "patterns": [
+        "Fee for general category above 5 lakh income",
+        "What is the full fee structure?",
+        "I belong to general category and my income is high",
+        "Gen/OBC student with income above 5 lakh"
+      ],
+      "responses": [
+        "General/OBC students with income above ₹5 lakh pay the full tuition fee of ₹1,25,000/year. Total annual fee for hostelers is ₹1,81,000 in 1st year, and ₹1,76,000 in following years."
+      ]
+    },
+    {
+      "tag": "difference_hosteler_day_scholar",
+      "patterns": [
+        "What is the difference between hosteler and day scholar fees?",
+        "Day scholar vs hosteler charges",
+        "Is hostel fee included?",
+        "How much more hostelers pay?"
+      ],
+      "responses": [
+        "Hostelers pay ₹17,000 more annually than day scholars (₹12,000 room rent + ₹5,000 hostel charges)."
+      ]
+    },
+    {
+      "tag": "institute_charges",
+      "patterns": [
+        "What are the common institute charges?",
+        "List institutional charges",
+        "What is section B fee?",
+        "What are the yearly non-tuition charges?"
+      ],
+      "responses": [
+        "Institutional charges include registration, exam fee, hostel rent (if applicable), development, health, library, student activity, project fee, etc., totaling ₹51,000 for hostelers and ₹34,000 for day scholars."
+      ]
+    },
+    {
+      "tag": "security_fee",
+      "patterns": [
+        "What is the security fee?",
+        "Do I have to pay caution money?",
+        "Is there a refundable fee?",
+        "When is institute security paid?"
+      ],
+      "responses": [
+        "Yes, there is a one-time Institute Security fee of ₹5,000, paid only in the 1st year. It's non-refundable."
+      ]
+    },
+    {
+      "tag": "bus_fee",
+      "patterns": [
+        "Is there a bus fee for day scholars?",
+        "How much is the bus facility fee?",
+        "If I opt for bus, do I pay more?",
+        "Bus charge per semester"
+      ],
+      "responses": [
+        "Yes, day scholars who opt for bus facility need to pay an additional ₹3,000 per semester."
+      ]
+    },
+    {
+      "tag": "semester_fee",
+      "patterns": [
+        "What is the semester-wise fee?",
+        "Break fee by semester",
+        "How much to pay each semester?",
+        "Semester fee details"
+      ],
+      "responses": [
+        "Semester fees vary by category and year. For example, SC/ST hostelers pay ₹30,500 in 1st semester and ₹25,500 in others. General students with income above ₹5 lakh pay ₹93,000 in 1st sem and ₹88,000 in others."
+      ]
+    },
+    {
+      "tag": "students_placed",
+      "patterns": [
+        "How many students got placed in CSE",
+        "Number of students placed in ECE",
+        "Placement count in ME",
+        "How many students got jobs in IT",
+        "Placed students in EE",
+        "Placement numbers in CHE",
+        "Students placed in IPE",
+        "Number placed in ICE",
+        "How many placed in CIVIL",
+        "Placement stats for BT",
+        "Students placed in TT department",
+        "TT placement count"
+      ],
+      "responses": [
+        {
+          "text": "Placement Stats for 2022-23: CSE - 113, ECE - 92, EE - 41, IT - 54, CHE - 84, ICE - 94, CIVIL - 62, IPE - 75, ME - 95, BT - 12, TT - 44",
+          "media": [],
+          "link": ""
+        }
+      ]
+    },
+    {
+      "tag": "placementoverall",
+      "patterns": [
+        "overall placement stats",
+        "placement summary",
+        "how many got placed",
+        "year wise placement",
+        "total students placed"
+      ],
+      "responses": [
+        "Here’s the placement overview:\n2019–20: 437 placed\n2020–21: 380 placed\n2021–22: 556 placed\n2022–23: 766 placed\nPlacements are improving every year."
+      ]
+    },
+    {
+      "tag": "placementbranchwise",
+      "patterns": [
+        "branch wise placements",
+        "placements by department",
+        "how many placed in cse",
+        "ece placement count",
+        "students placed in each branch"
+      ],
+      "responses": [
+        "Branch-wise placements (2022–23):\nCSE: 113\nECE: 92\nEE: 41\nIT: 54\nCHE: 84\nICE: 94\nCIVIL: 75\nIPE: 95\nME: 12\nBT: 44\nTT: 84"
+      ]
+    },
+    {
+      "tag": "averagepackage",
+      "patterns": [
+        "ctc",
+        "ctc offered",
+        "average ctc",
+        "placement ctc",
+        "placement package",
+        "salary offered",
+        "average package",
+        "branch wise ctc",
+        "average package",
+        "branch wise ctc",
+        "average salary for each branch",
+        "mean package by dept"
+      ],
+      "responses": [
+        "Average CTCs (2022–23):\nCSE: ₹16.74 LPA\nECE: ₹16.67 LPA\nIT: ₹12.95 LPA\nEE: ₹10.83 LPA\nICE: ₹9.94 LPA\nCHE: ₹7.45 LPA\nIPE: ₹8.29 LPA\nME: ₹8.18 LPA\nCIVIL: ₹7.28 LPA\nBT: ₹8.18 LPA\nTT: ₹7.70 LPA"
+      ]
+    },
+    {
+      "tag": "highestbranchpackage",
+      "patterns": [
+        "which branch got highest package",
+        "top branch placement",
+        "highest salary in cse",
+        "highest in ece"
+      ],
+      "responses": [
+        "CSE got the highest package, followed by ECE and IT. These branches saw offers up to ₹52 LPA."
+      ]
+    },
+    {
+      "tag": "highestpackage",
+      "patterns": [
+        "what is the highest package",
+        "max ctc offered",
+        "top placement offer",
+        "biggest salary offered",
+        "highest package"
+      ],
+      "responses": [
+        "The highest package was ₹52 LPA (BTech) and ₹34 LPA (MTech)."
+      ]
+    },
+    {
+      "tag": "averagepackagebranchwise",
+      "patterns": [
+        "average package branch wise",
+        "ctc by branch",
+        "package details branch wise"
+      ],
+      "responses": [
+        "Here’s the average package per branch:\nCSE: ₹16.74 LPA\nECE: ₹16.67 LPA\nIT: ₹12.95 LPA\nEE: ₹10.83 LPA\nICE: ₹9.94 LPA\nME: ₹8.18 LPA\nIPE: ₹8.29 LPA\nBT: ₹8.18 LPA\nTT: ₹7.70 LPA\nCHE: ₹7.45 LPA\nCIVIL: ₹7.28 LPA"
+      ]
+    },
+    {
+      "tag": "highestpackagebranchwise",
+      "patterns": [
+        "highest package branch wise",
+        "top offer per branch",
+        "which branch got best offer"
+      ],
+      "responses": [
+        "CSE and ECE received offers up to ₹52 LPA. IT and EE also had offers around ₹30–40 LPA."
+      ]
+    },
+    {
+      "tag": "highestoverallpackage",
+      "patterns": [
+        "highest package btech",
+        "mtech highest ctc",
+        "top offer nit jalandhar"
+      ],
+      "responses": ["Highest package for BTech: ₹52 LPA. For MTech: ₹34 LPA."]
+    },
+    {
+      "tag": "btechstats2024",
+      "patterns": [
+        "btech stats 2024",
+        "btech placement count",
+        "btech offers 2024",
+        "btech placement rate"
+      ],
+      "responses": [
+        "In 2024, 700 BTech students were placed with 830 offers. Placement rate was 86.31%. Avg package: ₹9.48 LPA."
+      ]
+    },
+    {
+      "tag": "placementoverview",
+      "patterns": [
+        "placement overview",
+        "summary of nit jalandhar placements",
+        "highlights of 2024 placements"
+      ],
+      "responses": [
+        "830 offers made in 2024. BTech placement rate: 86.31%. Highest: ₹52 LPA. Avg: ₹9.48 LPA. CSE, ECE, and IT performed best."
+      ]
+    },
+    {
+      "tag": "placementoverall",
+      "patterns": [
+        "What are the placement statistics of NIT Jalandhar?",
+        "Give me overall placement data",
+        "How many students got placed?",
+        "What are the job offers in recent years?",
+        "Year wise placement details?",
+        "Total number of students placed?",
+        "Overall placement trend?"
+      ],
+      "responses": [
+        "Here’s the **year-wise placement overview**:\n\n📌 **2019–20**: 566 eligible, 466 job offers, 29 double offers, 437 placed\n📌 **2020–21**: 599 eligible, 419 offers, 39 double offers, 380 placed\n📌 **2021–22**: 680 eligible, 768 offers, 212 double offers, 556 placed\n📌 **2022–23**: 950+ eligible, 904 offers, 138 double offers, 766 placed\n\n📈 Placements have improved steadily over the years."
+      ]
+    },
+    {
+      "tag": "placementbranchwise",
+      "patterns": [
+        "Branch wise placements in 2022-23",
+        "How many students placed from each branch?",
+        "Department wise placement numbers?",
+        "How was CSE placement?",
+        "Placement count for ECE, EE, ME, etc.?"
+      ],
+      "responses": [
+        "📊 **Branch-wise Placement (2022–23)**:\n- CSE: 113/120\n- ECE: 92/108\n- EE: 41/60\n- IT: 54/59\n- CHE: 84/93\n- ICE: 94/111\n- CIVIL: 75/93\n- IPE: 95/100\n- ME: 12/37\n- BT: 44/87\n- TT: 84/120"
+      ]
+    },
+    {
+      "tag": "averagepackage",
+      "patterns": [
+        "What is the average package for each branch?",
+        "Branch wise CTC?",
+        "Average salary by department?",
+
+        "Tell me average package for CSE, ECE, etc.",
+        "What is the IT branch average package?",
+        "average package"
+      ],
+      "responses": [
+        "💰 **Average CTC (2022–23)**:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n- EE: ₹10.83 LPA\n- ICE: ₹9.94 LPA\n- CHE: ₹7.45 LPA\n- IPE: ₹8.29 LPA\n- ME: ₹8.18 LPA\n- CIVIL: ₹7.28 LPA\n- BT: ₹8.18 LPA\n- TT: ₹7.70 LPA"
+      ]
+    },
+    {
+      "tag": "highestbranchpackage",
+      "patterns": [
+        "Which branch got the highest package?",
+        "Branch wise highest package?",
+        "Top salary per department?",
+        "What is the highest package in CSE?",
+        "ECE highest offer?"
+      ],
+      "responses": [
+        "📌 Based on trends, **CSE received the highest packages**, followed by ECE and IT.\n\n🚀 **Top Average CTCs (2022–23)**:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n\nWhile specific max package values per branch aren't shown in the graphs, these departments lead in both **placements** and **salary range**."
+      ]
+    },
+    {
+      "tag": "highestpackage",
+      "patterns": [
+        "What is the highest package offered?",
+        "Tell me the highest salary received.",
+        "Maximum package offered?",
+        "Top offer in placements?",
+        "Which student got highest CTC?",
+        "highest package"
+      ],
+      "responses": [
+        "🎯 While the uploaded charts show **average CTCs**, the **highest overall package isn't explicitly mentioned**.\n\nHowever, based on typical NIT trends and strong average packages (like ₹16.74 LPA in CSE), the **highest package could be upwards of ₹40 LPA to ₹50+ LPA**, especially in tech profiles."
+      ]
+    },
+    {
+      "tag": "averagepackagebranchwise",
+      "patterns": [
+        "What is the average package for each branch at NIT Jalandhar?",
+        "Give me branch-wise average CTC for 2022-23.",
+        "Tell me average salary for branches at NITJ.",
+        "Package details branch-wise?"
+      ],
+      "responses": [
+        "Here's the average package (CTC) for each branch during the 2022–23 placements at NIT Jalandhar:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n- EE: ₹10.83 LPA\n- ICE: ₹9.94 LPA\n- ME: ₹8.18 LPA\n- IPE: ₹8.29 LPA\n- BT: ₹8.18 LPA\n- TT: ₹7.70 LPA\n- CHE: ₹7.45 LPA\n- CIVIL: ₹7.28 LPA"
+      ]
+    },
+    {
+      "tag": "highestpackagebranchwise",
+      "patterns": [
+        "Which branch has the highest package?",
+        "What is the highest package in CSE at NIT Jalandhar?",
+        "Which branch got the top placement offer?",
+        "Tell me highest CTC offered in IT branch.",
+        "Highest package for each branch?"
+      ],
+      "responses": [
+        "In 2022–23, the highest package was offered to students of CSE and ECE, with offers going up to ₹52 LPA. IT and EE also received high offers around ₹30–40 LPA."
+      ]
+    },
+    {
+      "tag": "highestoverallpackage",
+      "patterns": [
+        "What is the highest package for BTech at NIT Jalandhar?",
+        "Highest package for MTech students?",
+        "How much is the highest offer made at NIT Jalandhar?",
+        "Tell me the top CTC offered at NIT Jalandhar."
+      ],
+      "responses": [
+        "The highest package offered to a BTech student during the 2024 placements at NIT Jalandhar was ₹52 LPA. For MTech students, the highest offer was ₹34 LPA."
+      ]
+    },
+    {
+      "tag": "btechstats2024",
+      "patterns": [
+        "Give me 2024 BTech placement stats of NIT Jalandhar.",
+        "How many BTech students got placed in 2024?",
+        "How many job offers were made to BTech students?",
+        "What was the BTech placement rate at NIT Jalandhar?",
+        "Tell me BTech placement summary for 2024."
+      ],
+      "responses": [
+        "In 2024, 700 BTech students from NIT Jalandhar were placed, receiving a total of 830 job offers. The placement rate was 86.31% and the average package stood at ₹9.48 LPA."
+      ]
+    },
+    {
+      "tag": "placementoverview",
+      "patterns": [
+        "Tell me about placement packages at NIT Jalandhar.",
+        "What are the placement highlights of NIT Jalandhar?",
+        "Summarize NITJ 2024 placements.",
+        "Placement data overview?"
+      ],
+      "responses": [
+        "The 2024 placement report of NIT Jalandhar shows strong performance. BTech students received 830 offers with a placement rate of 86.31% and average package of ₹9.48 LPA. The highest package was ₹52 LPA (BTech) and ₹34 LPA (MTech). CSE, ECE, and IT branches led in both average and highest packages."
+      ]
+    },
+    {
+      "tag": "ranking",
+      "patterns": [
+        "NIT Jalandhar ranking?",
+        "NIRF ranking",
+        "College Rank",
+        "NITJ Rank",
+        "College position"
+      ],
+      "responses": ["NIT Jalandhar has 46th NIRF ranking"]
+    },
+
+    {
+      "tag": "BTECH",
+      "patterns": [
+        "time",
+        "years in BTECH",
+        "How many years of BTECH",
+        "BTECH",
+        "B.Tech",
+        "BTECH Branches"
+      ],
+      "responses": [
+        "BTECH is a 4-year course. The branches offered are:\n\n- Computer Science and Engineering\n- Information Technology\n- Electronics and Communication Engineering\n- Electrical Engineering\n- Mechanical Engineering\n- Civil Engineering\n- Chemical Engineering\n- Biotechnology\n- Artificial Intelligence and Machine Learning\n- Data Science\n- Instrumentation and Control Engineering"
+      ]
+    },
+
+    {
+      "tag": "MTECH",
+      "patterns": [
+        "time",
+        "years in MTECH",
+        "How many years of MTECH",
+        "MTECH"
+      ],
+      "responses": ["MTECH is a 2 year course"]
+    },
+
+    {
+      "tag": "MSC",
+      "patterns": ["time", "years in MSC", "How many years of MSC", "MSC"],
+      "responses": ["MSC is a 2 year course"]
+    },
+
+    {
       "tag": "hostel",
       "patterns": [
         "How can I apply for hostel accommodation at NIT Jalandhar?",
@@ -474,6 +921,20 @@
           ],
           "link": ""
         }
+      ]
+    },
+    {
+      "tag": "cutoff",
+      "patterns": [
+        "What is the cutoff for NIT Jalandhar?",
+        "NIT Jalandhar cutoff 2024",
+        "Cutoff for different branches in NIT Jalandhar",
+        "NIT Jalandhar general AI category ranks",
+        "NIT Jalandhar BTech cutoff",
+        "cutoff"
+      ],
+      "responses": [
+        "<h3>NIT Jalandhar Cutoff 2024 for General AI Category</h3><ul><li>Computer Science and Engineering: Round 1 - 9347, Last Round - 14114</li><li>Information Technology: Round 1 - 12840, Last Round - 17235</li><li>Data Science and Engineering: Round 1 - 12599, Last Round - 16273</li><li>Mathematics and Computing: Round 1 - 11994, Last Round - 16998</li><li>Electronics and Communication Engineering: Round 1 - 14004, Last Round - 20714</li><li>Electronics and VLSI Engineering: Round 1 - 14927, Last Round - 21895</li><li>Electrical Engineering: Round 1 - 19125, Last Round - 24706</li><li>Mechanical Engineering: Round 1 - 27605, Last Round - 38019</li><li>Instrumentation and Control Engineering: Round 1 - 27761, Last Round - 35053</li><li>Chemical Engineering: Round 1 - 32215, Last Round - 46975</li><li>Industrial and Production Engineering: Round 1 - 39228, Last Round - 56190</li><li>Biotechnology: Round 1 - 41055, Last Round - 62110</li><li>Civil Engineering: Round 1 - 37566, Last Round - 50338</li><li>Textile Technology: Round 1 - 45881, Last Round - 69211</li></ul>"
       ]
     }
   ]

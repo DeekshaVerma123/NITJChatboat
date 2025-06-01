@@ -42,7 +42,7 @@ def chatbot_response(sentence):
     print(f"Input: {sentence}")
     print(f"Predicted tag: {tag}, Confidence: {prob:.4f}")
 
-    if prob > 0.85:  # Increased threshold
+    if prob > 0.68:  # Increased threshold
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 response = random.choice(intent["responses"])
@@ -56,7 +56,7 @@ def chatbot_response(sentence):
                 return (response_dict, tag)
     # Default response if confidence is too low
     return (
-        {"text": "I am unable to understand that..", "media": [], "link": ""},
+        {"text": "Please modify your query little bit..", "media": [], "link": ""},
         "unknown",
     )
 
