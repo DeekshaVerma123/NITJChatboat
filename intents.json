@@ -1,5 +1,155 @@
 {
   "intents": [
+
+    {
+      "tag": "nitj_clubs_list",
+      "patterns": [
+        "List all the clubs at NIT Jalandhar.",
+        "What are all the student clubs in NIT Jalandhar?",
+        "Can you give me a list of clubs at NIT Jalandhar?",
+        "Show me the names of all clubs in NIT Jalandhar.",
+        "What are the different societies at NIT Jalandhar?",
+        "All clubs NIT Jalandhar?",
+        "List of student organizations NIT Jalandhar?",
+        "What are all the extracurricular clubs at NITJ?",
+        "Names of all clubs in NIT Jalandhar?",
+        "Student clubs list NIT Jalandhar?"
+      ],
+      "responses": [
+        "Here is a list of the clubs at NIT Jalandhar. You can find more details about each club by visiting the student life page: <a href='https://www.nitj.ac.in/admissions/student_life.html' target='_blank'>NIT Jalandhar Student Life</a>:<br><li>SEED Society</li><br><li>ANIMANIACS</li><br><li>PRAYAAS</li><br><li>DAKSH</li><br><li>FINE ARTS SOCIETY</li><br><li>SPIC MACAY</li><br><li>REGIONAL LANGUAGE CLUB</li><br><li>Social Works & Rural Activity</li><br><li>Photography & Movie Club (NETRA)</li><br><li>ZEAL SOCIETY</li><br><li>Aarogya</li><br><li>Xceed</li>",
+        "NIT Jalandhar has a variety of student-run clubs catering to different interests. You can explore them on the student life page: <a href='https://www.nitj.ac.in/admissions/student_life.html' target='_blank'>NIT Jalandhar Student Life</a>. The clubs are:<br><li>SEED Society</li><br><li>ANIMANIACS</li><br><li>PRAYAAS</li><br><li>DAKSH</li><br><li>FINE ARTS SOCIETY</li><br><li>SPIC MACAY</li><br><li>REGIONAL LANGUAGE CLUB</li><br><li>Social Works & Rural Activity</li><br><li>Photography & Movie Club (NETRA)</li><br><li>ZEAL SOCIETY</li><br><li>Aarogya</li><br><li>Xceed</li>",
+        "The following clubs are active at NIT Jalandhar. For more information about each club, please visit: <a href='https://www.nitj.ac.in/admissions/student_life.html' target='_blank'>NIT Jalandhar Student Life</a>:<br><li>SEED Society</li><br><li>ANIMANIACS</li><br><li>PRAYAAS</li><br><li>DAKSH</li><br><li>FINE ARTS SOCIETY</li><br><li>SPIC MACAY</li><br><li>REGIONAL LANGUAGE CLUB</li><br><li>Social Works & Rural Activity</li><br><li>Photography & Movie Club (NETRA)</li><br><li>ZEAL SOCIETY</li><br><li>Aarogya</li><br><li>Xceed</li>",
+        "You can find a complete list of student clubs at NIT Jalandhar on their student life webpage: <a href='https://www.nitj.ac.in/admissions/student_life.html' target='_blank'>NIT Jalandhar Student Life</a>. The clubs include:<br><li>SEED Society</li><br><li>ANIMANIACS</li><br><li>PRAYAAS</li><br><li>DAKSH</li><br><li>FINE ARTS SOCIETY</li><br><li>SPIC MACAY</li><br><li>REGIONAL LANGUAGE CLUB</li><br><li>Social Works & Rural Activity</li><br><li>Photography & Movie Club (NETRA)</li><br><li>ZEAL SOCIETY</li><br><li>Aarogya</li><br><li>Xceed</li>",
+        "Here's a list of all the clubs currently active at NIT Jalandhar. For details about each club and their activities, visit: <a href='https://www.nitj.ac.in/admissions/student_life.html' target='_blank'>NIT Jalandhar Student Life</a>:<br><li>SEED Society</li><br><li>ANIMANIACS</li><br><li>PRAYAAS</li><br><li>DAKSH</li><br><li>FINE ARTS SOCIETY</li><br><li>SPIC MACAY</li><br><li>REGIONAL LANGUAGE CLUB</li><br><li>Social Works & Rural Activity</li><br><li>Photography & Movie Club (NETRA)</li><br><li>ZEAL SOCIETY</li><br><li>Aarogya</li><br><li>Xceed</li>"
+      ]
+    },
+    {
+      "tag": "techniti_annual_fest",
+      "patterns": [
+        "What is Techniti?",
+        "Tell me about Techniti at NIT Jalandhar.",
+        "When is the Techniti fest?",
+        "What events happen at Techniti?",
+        "Techniti NIT Jalandhar?",
+        "NIT Jalandhar annual tech fest?",
+        "About Techniti fest NITJ?",
+        "What is the tech fest of NIT Jalandhar called?",
+        "Information about Techniti annual fest?",
+        "Details about Techniti?",
+        "NIT Jalandhar's technology festival?",
+        "Techniti events?",
+        "Participating in Techniti?",
+        "Techniti NITJ details?",
+        "Annual techical fest NIT Jalandhar?",
+        "technical fest"
+      ],
+      "responses": [
+        "Techniti is the annual technical festival of NIT Jalandhar. It's a platform for students to showcase their technical skills, learn from experts, and participate in various competitions and events. You can find more information on their official page: <a href='https://www.nitj.ac.in/clubs/tech_fest.html' target='_blank'>Techniti - NIT Jalandhar</a>.",
+        "Techniti is the highly anticipated annual technical fest organized by the student community of NIT Jalandhar. It features a wide array of technical events, workshops, guest lectures, and exhibitions. To know more, visit: <a href='https://www.nitj.ac.in/clubs/tech_fest.html' target='_blank'>Learn about Techniti</a>.",
+        "The annual technical festival of NIT Jalandhar is called Techniti. It's a vibrant event that brings together students from various colleges to engage in technical challenges and showcases. You can explore the details here: <a href='https://www.nitj.ac.in/clubs/tech_fest.html' target='_blank'>Techniti Official Page</a>.",
+        "Techniti, NIT Jalandhar's annual tech fest, hosts a multitude of exciting events, including robotics competitions, coding challenges, model exhibitions, quizzes, and interactive workshops. For a complete list of events and schedules, please check their official website: <a href='https://www.nitj.ac.in/clubs/tech_fest.html' target='_blank'>Techniti Events</a>.",
+        "If you're interested in NIT Jalandhar's annual technical festival, Techniti, you can find all the relevant information, including dates, events, and how to participate, on their official webpage: <a href='https://www.nitj.ac.in/clubs/tech_fest.html' target='_blank'>Techniti Website</a>."
+      ]
+    },
+
+    {
+      "tag": "IT_faculty_count",
+      "patterns": [
+        "How many IT faculty are there at NIT Jalandhar?",
+        "What is the number of IT professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the IT department of NIT Jalandhar.",
+        "Number of teachers in the Information Technology department at NIT Jalandhar?",
+        "How many professors are in the IT branch at NIT Jalandhar?",
+        "IT faculty strength at NIT Jalandhar?",
+        "Count of IT lecturers at NIT Jalandhar?",
+        "What's the total number of IT department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the IT department?",
+        "Total faculty in IT?",
+        "IT department faculty count?",
+        "Number of IT teachers?",
+        "Faculty strength of IT department?"
+      ],
+      "responses": [
+        "There are currently 14 faculty members in the Information Technology department at NIT Jalandhar. You can find more details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>IT Faculty</a>."
+      ]
+    },
+    {
+      "tag": "it_student_intake",
+      "patterns": [
+        "What is the student intake for the IT branch at NIT Jalandhar?",
+        "How many students are admitted to the IT department at NIT Jalandhar?",
+        "What is the number of seats available in the IT program at NIT Jalandhar?",
+        "Tell me about the intake capacity for IT students at NIT Jalandhar.",
+        "How many students are enrolled in the IT course at NIT Jalandhar?",
+        "What's the total number of seats for IT students at NIT Jalandhar?",
+        "IT branch student intake?",
+        "Number of seats in IT?",
+        "Student capacity of IT department?",
+        "How many admissions in IT?",
+        "Intake for IT students?",
+        "Seats available for IT?",
+        "IT admission capacity?",
+        "Number of students admitted to IT?",
+        "Total seats in IT branch?"
+      ],
+      "responses": [
+        "The current student intake for the Information Technology (IT) branch at NIT Jalandhar is 120 seats.You can find more details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/it/Student' target='_blank'>IT Students</a>.",
+        "There are a total of 120 seats available for students who are admitted to the IT program at NIT Jalandhar.You can find more details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/it/Student' target='_blank'>IT Students</a>."
+      ]
+    },
+    {
+      "tag": "IT_students_placed",
+      "patterns": [
+        "How many IT students got placed at NIT Jalandhar?",
+        "What is the placement number for the IT branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the IT department of NIT Jalandhar.",
+        "How many students from IT were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the IT branch at NIT Jalandhar?",
+        "Number of IT students placed?",
+        "Placement figures for IT students at NIT Jalandhar?",
+        "How many students from Information Technology were placed?",
+        "NIT Jalandhar IT placements - number of students?",
+        "Count of placed students in IT NIT Jalandhar?"
+      ],
+      "responses": [
+        "In the current placement drive at NIT Jalandhar, 90 out of 109 eligible students from the Information Technology branch were placed. This represents a placement rate of approximately 82.57% for the IT branch."
+      ]
+    },
+    {
+      "tag": "top_faang_companies_visited",
+      "patterns": [
+        "Which are the top companies that visit NIT Jalandhar for placements?",
+        "Does FAANG companies visit NIT Jalandhar for recruitment?",
+        "Are there any top-tier companies that hire from NIT Jalandhar?",
+        "Do companies like Google, Amazon, Facebook, Apple, Netflix recruit from NIT Jalandhar?",
+        "What kind of companies come for placements at NIT Jalandhar?",
+        "Are FAANG companies among the recruiters at NIT Jalandhar?",
+        "Top recruiting companies at NIT Jalandhar?",
+        "Companies that visit NIT Jalandhar for IT placements?",
+        "Do big tech companies hire from NIT Jalandhar?",
+        "FAANG recruitment at NIT Jalandhar?",
+        "Top companies visiting for placements?",
+        "Are any FAANG companies recruiters here?",
+        "Which major companies recruit from NITJ?",
+        "Does NIT Jalandhar attract top tech firms?",
+        "Companies like Microsoft, etc. visit NIT Jalandhar?",
+        "Does Optum visit NIT Jalandhar?",
+        "Does Google visit NIT Jalandhar?",
+        "Does Microsoft visit NIT Jalandhar?",
+        "Does Oracle visit NIT Jalandhar?",
+        "Does Adobe visit NIT Jalandhar?",
+        "Does Nvidia visit NIT Jalandhar?",
+        "Does Amazon visit NIT Jalandhar?",
+        "Do Optum, Google, Microsoft, Oracle, Adobe, Nvidia, Amazon recruit from NIT Jalandhar?"
+      ],
+      "responses": [
+        "NIT Jalandhar has a strong placement record, and top companies like Optum, Google, Microsoft, Oracle, Adobe, Nvidia, and Amazon have indeed visited the campus for recruitment drives in the past. The specific companies participating each year can vary based on their hiring needs and our students' skill sets. For the most accurate and up-to-date list of companies that have recruited from NIT Jalandhar, especially for the current or most recent placement season, please refer to the official placement brochure or the career development cell section on the NIT Jalandhar website.",
+        "Yes, NIT Jalandhar has been a preferred recruitment destination for several leading technology companies, including Optum, Google, Microsoft, Oracle, Adobe, Nvidia, and Amazon. These companies recognize the talent pool and the quality of education at our institute. To get detailed information about the companies that participated in the latest placement drive and the number of offers made, please visit the official placement section of the NIT Jalandhar website.",
+        "NIT Jalandhar consistently attracts prominent companies for its placement programs. Among these, Optum, Google, Microsoft, Oracle, Adobe, Nvidia, and Amazon are some of the well-regarded organizations that have recruited our students. For comprehensive details about the recruiting companies and placement statistics for the most recent year, please consult the official reports published by the Career Development and Placement Cell of NIT Jalandhar.",
+        "The placement record at NIT Jalandhar showcases the trust that numerous top-tier companies have in our graduates. We have seen participation from companies like Optum, Google, Microsoft, Oracle, Adobe, Nvidia, and Amazon in our recruitment drives. For the most current information on visiting companies and placement data, please refer to the official website of NIT Jalandhar, under the career development or placements section.",
+        "Many esteemed companies, including Optum, Google, Microsoft, Oracle, Adobe, Nvidia, and Amazon, have visited NIT Jalandhar for campus placements. The strong performance of our students and the institute's reputation make it a favorable choice for these organizations. For the most accurate list of recruiters for the latest placement season, please visit the official NIT Jalandhar website and look for the placement statistics or list of participating companies."
+      ]
+    },
     {
       "tag": "facultyCSE",
       "patterns": [
