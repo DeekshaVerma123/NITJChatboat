@@ -1,6 +1,5 @@
 {
   "intents": [
-
     {
       "tag": "nitj_clubs_list",
       "patterns": [
@@ -494,10 +493,7 @@
     },
     {
       "tag": "highestbranchpackage",
-      "patterns": [
-        "which branch got highest package",
-        "top branch placement"
-      ],
+      "patterns": ["which branch got highest package", "top branch placement"],
       "responses": [
         "CSE got the highest package, followed by ECE and IT. These branches saw offers up to ₹52 LPA."
       ]
@@ -595,12 +591,10 @@
         "📊 **Branch-wise Placement (2022–23)**:\n- CSE: 113/120\n- ECE: 92/108\n- EE: 41/60\n- IT: 54/59\n- CHE: 84/93\n- ICE: 94/111\n- CIVIL: 75/93\n- IPE: 95/100\n- ME: 12/37\n- BT: 44/87\n- TT: 84/120"
       ]
     },
-    
+
     {
       "tag": "averagepackagebranchwi22-23",
-      "patterns": [
-        "Give me branch-wise average CTC for 2022-23."
-      ],
+      "patterns": ["Give me branch-wise average CTC for 2022-23."],
       "responses": [
         "Here's the average package (CTC) for each branch during the 2022–23 placements at NIT Jalandhar:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n- EE: ₹10.83 LPA\n- ICE: ₹9.94 LPA\n- ME: ₹8.18 LPA\n- IPE: ₹8.29 LPA\n- BT: ₹8.18 LPA\n- TT: ₹7.70 LPA\n- CHE: ₹7.45 LPA\n- CIVIL: ₹7.28 LPA"
       ]
@@ -1195,6 +1189,404 @@
       ],
       "responses": [
         "<h3>NIT Jalandhar Cutoff 2024 for General AI Category</h3><ul><li>Computer Science and Engineering: Round 1 - 9347, Last Round - 14114</li><li>Information Technology: Round 1 - 12840, Last Round - 17235</li><li>Data Science and Engineering: Round 1 - 12599, Last Round - 16273</li><li>Mathematics and Computing: Round 1 - 11994, Last Round - 16998</li><li>Electronics and Communication Engineering: Round 1 - 14004, Last Round - 20714</li><li>Electronics and VLSI Engineering: Round 1 - 14927, Last Round - 21895</li><li>Electrical Engineering: Round 1 - 19125, Last Round - 24706</li><li>Mechanical Engineering: Round 1 - 27605, Last Round - 38019</li><li>Instrumentation and Control Engineering: Round 1 - 27761, Last Round - 35053</li><li>Chemical Engineering: Round 1 - 32215, Last Round - 46975</li><li>Industrial and Production Engineering: Round 1 - 39228, Last Round - 56190</li><li>Biotechnology: Round 1 - 41055, Last Round - 62110</li><li>Civil Engineering: Round 1 - 37566, Last Round - 50338</li><li>Textile Technology: Round 1 - 45881, Last Round - 69211</li></ul>"
+      ]
+    },
+
+    {
+      "tag": "fee_structure_yearly",
+      "patterns": [
+        "What is the total fee for one year at NIT Jalandhar?",
+        "NIT Jalandhar fee structure for first year",
+        "Total annual fee for BTech at NIT Jalandhar",
+        "How much is the one year fee at NIT Jalandhar?",
+        "Fee for full year in NITJ",
+        "one year fee"
+      ],
+      "responses": [
+        "<h3>NIT Jalandhar Fee Structure (One Year)</h3><ul><li>Tuition Fee: ₹62,500</li><li>Hostel Fee: ₹15,000</li><li>Mess Advance: ₹17,000</li><li>Other Charges (Library, Sports, etc.): ₹7,000</li><li><strong>Total (Approx): ₹1,01,500</strong></li></ul>"
+      ]
+    },
+    {
+      "tag": "fee_structure_semester",
+      "patterns": [
+        "NIT Jalandhar semester wise fee structure",
+        "How much is the fee per semester in NITJ?",
+        "Fee structure semester wise at NIT Jalandhar",
+        "Tell me NITJ BTech semester fee",
+        "Semester-wise total fee",
+        "semester fee"
+      ],
+      "responses": [
+        "<h3>NIT Jalandhar Fee Structure (Per Semester)</h3><ul><li>Tuition Fee: ₹31,250</li><li>Hostel Fee: ₹7,500</li><li>Mess Advance: ₹8,500</li><li>Other Charges (Library, Sports, etc.): ₹3,500</li><li><strong>Total (Approx): ₹50,750</strong></li></ul>"
+      ]
+    },
+    {
+      "tag": "hostels_info",
+      "patterns": [
+        "How many hostels are there in NIT Jalandhar?",
+        "Number of hostels in NITJ",
+        "Total boys and girls hostels in NIT Jalandhar",
+        "List of hostels in NIT Jalandhar",
+        "Hostels available at NIT Jalandhar",
+        "no of hostels"
+      ],
+      "responses": [
+        "<h3>Total Hostels in NIT Jalandhar: 15</h3><ul><li><strong>Boys Hostels (10):</strong> Boys Hostel - 01, Boys Hostel - 02, Boys Hostel - 03, Boys Hostel - 04, Boys Hostel - 05, Boys Hostel - 06, Boys Hostel - 07 & 7E, Mega Boys Hostel Block - A, Mega Boys Hostel Block - B, Mega Boys Hostel Block - F</li><li><strong>Girls Hostels (5):</strong> Girls Hostel - 01, Girls Hostel - 02, Mega Girls Hostel, Mega Girls Hostel Extension (MGH-E), Girls Hostel - 03 (merged facilities)</li></ul>"
+      ]
+    },
+    {
+      "tag": "boys_hostel_contact_details",
+      "patterns": [
+        "What are the contact details of boys hostels?",
+        "Contact details for boys hostel staff",
+        "Phone numbers of boys hostel clerks",
+        "Who is the clerk in boys hostel?",
+        "Boys hostel email and phone number",
+        "How to contact boys hostel?"
+      ],
+      "responses": [
+        "<h3>Boys Hostel Clerk Contact Details - NIT Jalandhar</h3><ul><li><strong>Boys Hostel - 01:</strong> Mr. Anant Pandey - 📞 8872682351 | 📧 hwb1@nitj.ac.in</li><li><strong>Boys Hostel - 02:</strong> Mr. Umesh Kumar - 📞 9023850798 | 📧 hwb2@nitj.ac.in</li><li><strong>Boys Hostel - 03:</strong> Mr. Ashish Kumar - 📞 7307236134 | 📧 hwb3@nitj.ac.in</li><li><strong>Boys Hostel - 04:</strong> Mr. Kailash Kumar - 📞 9997890496 | 📧 hwb4@nitj.ac.in</li><li><strong>Boys Hostel - 05:</strong> Mr. Rakesh Kumar - 📞 9463535975 | 📧 hwb5@nitj.ac.in</li><li><strong>Boys Hostel - 06:</strong> Mr. Ravikant Tripathi - 📞 7508771834 | 📧 hwb6@nitj.ac.in</li><li><strong>Boys Hostel - 07 & 7E:</strong> Mr. Deepu Kumar - 📞 9463739424 | 📧 hwb7@nitj.ac.in</li><li><strong>Mega Boys Hostel - Block A:</strong> Mr. Hari Kumar - 📞 7837797418 | 📧 mhba@nitj.ac.in</li><li><strong>Mega Boys Hostel - Block B:</strong> Mr. R.N. Chaturvedi - 📞 9464886034 | 📧 mhbb@nitj.ac.in</li><li><strong>Mega Boys Hostel - Block F:</strong> Mr. Krishankant Tripathi - 📞 9779945241 | 📧 mhbf@nitj.ac.in</li></ul>"
+      ]
+    },
+    {
+      "tag": "girls_hostel_contact_details",
+      "patterns": [
+        "What are the contact details of girls hostels?",
+        "Girls hostel clerk phone numbers and emails",
+        "Contact info of girls hostel staff",
+        "How to reach girls hostel clerks?",
+        "Girls hostel office contacts",
+        "Email and phone number for girls hostel"
+      ],
+      "responses": [
+        "<h3>Girls Hostel Clerk Contact Details - NIT Jalandhar</h3><ul><li><strong>Girls Hostel - 01:</strong> Ms. Monu Sharma - 📞 9464012062 | 📧 ohwg1@nitj.ac.in</li><li><strong>Girls Hostel - 02:</strong> Ms. Neha Devi - 📞 8146017894 | 📧 ohwg2@nitj.ac.in</li><li><strong>Mega Girls Hostel:</strong> Ms. Amarjeet Kaur - 📞 7888956947 | 📧 mhg@nitj.ac.in</li><li><strong>Mega Girls Hostel Extension (MGH-E):</strong> Contact same as Mega Girls Hostel unless specified otherwise</li></ul>"
+      ]
+    },
+    {
+      "tag": "all_hostel_contact_details",
+      "patterns": [
+        "All hostel contact details at NIT Jalandhar",
+        "Combined contact info for boys and girls hostels",
+        "Who are the clerks of all hostels?",
+        "Complete hostel office contact information",
+        "Phone and email of all hostels",
+        "List of hostel staff contacts NITJ"
+      ],
+      "responses": [
+        "<h3>All Hostel Clerk Contact Details - NIT Jalandhar</h3><h4>Boys Hostels</h4><ul><li>Boys Hostel - 01: Mr. Anant Pandey - 8872682351 (hwb1@nitj.ac.in)</li><li>Boys Hostel - 02: Mr. Umesh Kumar - 9023850798 (hwb2@nitj.ac.in)</li><li>Boys Hostel - 03: Mr. Ashish Kumar - 7307236134 (hwb3@nitj.ac.in)</li><li>Boys Hostel - 04: Mr. Kailash Kumar - 9997890496 (hwb4@nitj.ac.in)</li><li>Boys Hostel - 05: Mr. Rakesh Kumar - 9463535975 (hwb5@nitj.ac.in)</li><li>Boys Hostel - 06: Mr. Ravikant Tripathi - 7508771834 (hwb6@nitj.ac.in)</li><li>Boys Hostel - 07 & 7E: Mr. Deepu Kumar - 9463739424 (hwb7@nitj.ac.in)</li><li>Mega Boys Hostel A: Mr. Hari Kumar - 7837797418 (mhba@nitj.ac.in)</li><li>Mega Boys Hostel B: Mr. R.N Chaturvedi - 9464886034 (mhbb@nitj.ac.in)</li><li>Mega Boys Hostel F: Mr. Krishankant Tripathi - 9779945241 (mhbf@nitj.ac.in)</li></ul><h4>Girls Hostels</h4><ul><li>Girls Hostel - 01: Ms. Monu Sharma - 9464012062 (ohwg1@nitj.ac.in)</li><li>Girls Hostel - 02: Ms. Neha Devi - 8146017894 (ohwg2@nitj.ac.in)</li><li>Mega Girls Hostel: Ms. Amarjeet Kaur - 7888956947 (mhg@nitj.ac.in)</li><li>Mega Girls Hostel Extension (MGH-E): Same contact as Mega Girls Hostel</li></ul>"
+      ]
+    },
+    {
+      "tag": "gender_ratio_nitj",
+      "patterns": [
+        "What is the girls to boys ratio at NIT Jalandhar?",
+        "Gender ratio in NIT Jalandhar",
+        "Ratio of boys and girls in NITJ",
+        "Boys girls ratio in NIT Jalandhar",
+        "Female male student ratio NIT Jalandhar",
+        "How many girls and boys are there in NITJ?"
+      ],
+      "responses": [
+        "<h3>Girls and Boys Ratio at NIT Jalandhar</h3><p>As per the latest statistics, the gender ratio at NIT Jalandhar is approximately:</p><ul><li><strong>Male Students:</strong> 75%</li><li><strong>Female Students:</strong> 25%</li></ul><p>This ratio may vary slightly across different branches and batches.</p>"
+      ]
+    },
+    {
+      "tag": "college_location_nitj",
+      "patterns": [
+        "Where is NIT Jalandhar located?",
+        "What is the address of NIT Jalandhar?",
+        "Location of NITJ college",
+        "NITJ full address",
+        "How to reach NIT Jalandhar",
+        "NIT Jalandhar postal address"
+      ],
+      "responses": [
+        "<h3>📍 NIT Jalandhar Address</h3><p>Dr. B R Ambedkar National Institute of Technology,</p><p>GT Road, Amritsar Bypass,</p><p>Jalandhar, Punjab - 144008, India</p>"
+      ]
+    },
+    {
+      "tag": "distance_from_bus_railway",
+      "patterns": [
+        "How far is NIT Jalandhar from Jalandhar bus stand?",
+        "Distance of NITJ from railway station",
+        "How far is college from railway station?",
+        "How many kilometers NIT Jalandhar from Jalandhar City railway station?",
+        "NITJ distance from bus stand",
+        "Bus stand to NIT Jalandhar distance",
+        "Distance between Jalandhar railway station and NITJ"
+      ],
+      "responses": [
+        "<h3> Distance to NIT Jalandhar</h3><ul><li>From Jalandhar Bus Stand: ~10 km</li><li>From Jalandhar City Railway Station: ~12 km</li><li>From Jalandhar Cantt Railway Station: ~15 km</li></ul><p>You can reach the college by auto, cab, or local bus within 20–30 minutes depending on traffic.</p>"
+      ]
+    },
+    {
+      "tag": "college_facilities",
+      "patterns": [
+        "What facilities are provided by NIT Jalandhar?",
+        "College facilities available at NIT Jalandhar",
+        "What all facilities are there in NITJ?",
+        "List of amenities in NIT Jalandhar",
+        "Campus services in NITJ"
+      ],
+      "responses": [
+        "<h3> Facilities at NIT Jalandhar</h3><ul><li><strong>Gym:</strong> Separate gym facilities for boys and girls. Girls timing: 6 PM to 7 PM. Boys timing: 7 AM to 6 PM.</li><li><strong>Medical:</strong> A dispensary is available from 8 AM to 5 PM (Monday to Friday). Closed on Saturday and Sunday.</li><li><strong>ATM:</strong> A 24x7 ATM is available inside the campus.</li><li><strong>Bank:</strong> A branch of Canara Bank is available on campus for student transactions and banking needs.</li></ul>"
+      ]
+    },
+    {
+      "tag": "gym_facility",
+      "patterns": [
+        "Is there a gym in NIT Jalandhar?",
+        "What are the gym timings for boys?",
+        "What are the gym timings for girls?",
+        "Gym facility for students",
+        "Does NITJ have a gym?"
+      ],
+      "responses": [
+        "<h3> Gym Facilities</h3><p>NIT Jalandhar provides a gym facility:</p><ul><li><strong>Girls:</strong> 6:00 PM to 7:00 PM</li><li><strong>Boys:</strong> 7:00 AM to 6:00 PM</li></ul><p>Separate timing ensures comfort and safety for all students.</p>"
+      ]
+    },
+    {
+      "tag": "medical_facility",
+      "patterns": [
+        "Is there a medical facility in NIT Jalandhar?",
+        "What are the dispensary timings?",
+        "Doctor facility in NITJ?",
+        "Medical help for students",
+        "Does NITJ have a hospital or dispensary?"
+      ],
+      "responses": [
+        "<h3> Medical Facilities</h3><p>A campus dispensary is available for students and staff.</p><ul><li><strong>Timing:</strong> 8:00 AM to 5:00 PM (Monday to Friday)</li><li><strong>Closed:</strong> Saturday and Sunday</li></ul>"
+      ]
+    },
+    {
+      "tag": "atm_facility",
+      "patterns": [
+        "Is there any ATM in NIT Jalandhar?",
+        "Where can I withdraw cash in college?",
+        "ATM machine in college campus?",
+        "Cash withdrawal facility in NITJ"
+      ],
+      "responses": [
+        "<h3> ATM Facility</h3><p>Yes, a 24x7 ATM is available inside the campus for all students and staff.</p>"
+      ]
+    },
+    {
+      "tag": "bank_facility",
+      "patterns": [
+        "Is there a bank in NIT Jalandhar?",
+        "Banking facility in NITJ?",
+        "Which bank is available in college?",
+        "Does NITJ have Canara Bank?",
+        "Can I open an account in college bank?"
+      ],
+      "responses": [
+        "<h3>Bank Facility</h3><p>Yes, there is a branch of <strong>Canara Bank</strong> inside the NIT Jalandhar campus. It provides full banking services to students and staff.</p>"
+      ]
+    },
+
+    {
+      "tag": "highest_package_overall",
+      "patterns": [
+        "What is the highest package of NIT Jalandhar?",
+        "NITJ highest package 2024",
+        "Top placement package in NIT Jalandhar",
+        "Overall highest salary offered in NIT Jalandhar",
+        "NIT Jalandhar highest placement package"
+      ],
+      "responses": [
+        "<h3>Highest Package (Overall)</h3><p>The highest package offered at NIT Jalandhar is <strong>Rs. 52 LPA</strong> (Lakhs Per Annum), primarily secured by students from CSE and IT branches.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_all_branches",
+      "patterns": [
+        "What is the average package at NIT Jalandhar?",
+        "NITJ average placement package 2024",
+        "Average salary in NIT Jalandhar",
+        "NIT Jalandhar all branch average package"
+      ],
+      "responses": [
+        "<h3>Average Package (All Branches)</h3><p>The average package across all branches at NIT Jalandhar is approximately <strong>Rs. 11.5 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_cse",
+      "patterns": [
+        "Highest package of CSE in NIT Jalandhar",
+        "NITJ CSE highest placement",
+        "highest package of CSE branch of NITJ",
+        "Top salary offered in Computer Science at NIT Jalandhar",
+        "CSE highest package NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Computer Science and Engineering - Highest Package</h3><p>The highest package for the CSE branch at NIT Jalandhar is <strong>Rs. 52 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_it",
+      "patterns": [
+        "Highest package of IT in NIT Jalandhar",
+        "Top placement in Information Technology NITJ",
+        "NIT Jalandhar IT highest package"
+      ],
+      "responses": [
+        "<h3>Information Technology - Highest Package</h3><p>The highest package for the IT branch at NIT Jalandhar is <strong>Rs. 52 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_ece",
+      "patterns": [
+        "Highest package of ECE in NIT Jalandhar",
+        "Top package for electronics branch NIT Jalandhar",
+        "ECE branch highest salary in NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Electronics and Communication Engineering - Highest Package</h3><p>The highest package for the ECE branch at NIT Jalandhar is <strong>Rs. 28 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_mechanical",
+      "patterns": [
+        "Highest package of Mechanical branch in NIT Jalandhar",
+        "Mechanical top placement NIT Jalandhar",
+        "ME branch highest salary in NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Mechanical Engineering - Highest Package</h3><p>The highest package for the Mechanical Engineering branch at NIT Jalandhar is <strong>Rs. 12 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_civil",
+      "patterns": [
+        "Highest package of Civil in NIT Jalandhar",
+        "Civil Engineering highest salary NIT Jalandhar",
+        "Top package Civil branch NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Civil Engineering - Highest Package</h3><p>The highest package for the Civil Engineering branch at NIT Jalandhar is <strong>Rs. 10 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_biotech",
+      "patterns": [
+        "Highest package of Biotechnology in NIT Jalandhar",
+        "Top placement package Biotechnology NIT Jalandhar",
+        "NIT Jalandhar Biotech highest package"
+      ],
+      "responses": [
+        "<h3>Biotechnology - Highest Package</h3><p>The highest package for the Biotechnology branch at NIT Jalandhar is <strong>Rs. 9 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_mc",
+      "patterns": [
+        "Highest package of M&C in NIT Jalandhar",
+        "Mathematics and Computing highest placement",
+        "NITJ M&C top package"
+      ],
+      "responses": [
+        "<h3>Mathematics and Computing - Highest Package</h3><p>The highest package for the Mathematics and Computing branch at NIT Jalandhar is <strong>Rs. 30 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "average_package_cse",
+      "patterns": [
+        "Average package of CSE in NIT Jalandhar",
+        "CSE branch average salary in NITJ",
+        "NIT Jalandhar CSE average package"
+      ],
+      "responses": [
+        "<h3>Computer Science and Engineering - Average Package</h3><p>The average package for the CSE branch at NIT Jalandhar is <strong>Rs. 17 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_it",
+      "patterns": [
+        "Average package of IT in NIT Jalandhar",
+        "IT branch average salary in NITJ",
+        "NITJ Information Technology average package"
+      ],
+      "responses": [
+        "<h3>Information Technology - Average Package</h3><p>The average package for the IT branch at NIT Jalandhar is <strong>Rs. 14.5 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_ece",
+      "patterns": [
+        "Average package of ECE in NIT Jalandhar",
+        "Electronics branch average salary NIT Jalandhar",
+        "NITJ ECE average placement"
+      ],
+      "responses": [
+        "<h3>Electronics and Communication Engineering - Average Package</h3><p>The average package for the ECE branch at NIT Jalandhar is <strong>Rs. 10 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_mc",
+      "patterns": [
+        "Average package of M&C in NIT Jalandhar",
+        "Mathematics and Computing average salary NITJ",
+        "NITJ M&C average package"
+      ],
+      "responses": [
+        "<h3>Mathematics and Computing - Average Package</h3><p>The average package for the M&C branch at NIT Jalandhar is <strong>Rs. 12 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_ds",
+      "patterns": [
+        "Average package of Data Science in NIT Jalandhar",
+        "NITJ DS average salary",
+        "Data Science Engineering average package NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Data Science and Engineering - Average Package</h3><p>The average package for the Data Science branch at NIT Jalandhar is <strong>Rs. 11.5 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_mechanical",
+      "patterns": [
+        "Average package of Mechanical in NIT Jalandhar",
+        "Mechanical Engineering average salary NITJ",
+        "NIT Jalandhar ME average package"
+      ],
+      "responses": [
+        "<h3>Mechanical Engineering - Average Package</h3><p>The average package for the Mechanical branch at NIT Jalandhar is <strong>Rs. 7 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_civil",
+      "patterns": [
+        "Average package of Civil in NIT Jalandhar",
+        "Civil Engineering average salary in NITJ",
+        "NITJ Civil average package"
+      ],
+      "responses": [
+        "<h3>Civil Engineering - Average Package</h3><p>The average package for the Civil branch at NIT Jalandhar is <strong>Rs. 6.5 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_biotech",
+      "patterns": [
+        "Average package of Biotechnology in NIT Jalandhar",
+        "NITJ Biotech average salary",
+        "Biotech branch average package NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Biotechnology - Average Package</h3><p>The average package for the Biotechnology branch at NIT Jalandhar is <strong>Rs. 6 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "average_package_textile",
+      "patterns": [
+        "Average package of Textile in NIT Jalandhar",
+        "Average offer of Textile Technology in NITJ",
+        "Textile Engineering average salary NITJ",
+        "NITJ Textile average package"
+      ],
+      "responses": [
+        "<h3>Textile Technology - Average Package</h3><p>The average package for the Textile Technology branch at NIT Jalandhar is <strong>Rs. 5.8 LPA</strong>.</p>"
       ]
     }
   ]
