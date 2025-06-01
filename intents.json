@@ -1,18 +1,170 @@
 {
   "intents": [
     {
-      "tag": "fee_structure_overview",
+      "tag": "facultyCSE",
       "patterns": [
-        "What is the total fee for B.Tech?",
-        "Tell me about NIT Jalandhar BTech fees",
-        "What are the charges for BTech 2021-2025 batch?",
-        "Give an overview of NITJ B.Tech fees",
-        "Breakdown of total fee"
+        "How many CSE faculty are there at NIT Jalandhar?",
+        "What is the number of CSE professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the CSE department of NIT Jalandhar.",
+        "Number of teachers in the Computer Science department at NIT Jalandhar?",
+        "How many professors are in the CSE branch at NIT Jalandhar?",
+        "CSE faculty strength at NIT Jalandhar?",
+        "Count of CSE lecturers at NIT Jalandhar?",
+        "What's the total number of CSE department faculty in NIT Jalandhar?",
+        "Number of faculty in the Computer Science and Engineering department?",
+        "How many teaching staff are in the CSE department?",
+        "Total faculty in CSE?",
+        "CSE department faculty count?",
+        "Number of CSE teachers?",
+        "Faculty strength of CSE department?"
       ],
       "responses": [
-        "The fee structure includes tuition fees (varies by category/income), institutional charges (common), and a one-time security fee. Hostelers and day scholars have different total costs."
+        "CSE has currently 27 faculties. You can explore the faculty list here: <a href='https://departments.nitj.ac.in/dept/cse/Faculty' target='_blank'>CSE Faculty</a>."
       ]
     },
+
+    {
+      "tag": "intakeCSE",
+      "patterns": [
+        "What is the student intake for the CSE branch at NIT Jalandhar?",
+        "How many students are admitted to the CSE department at NIT Jalandhar?",
+        "What is the number of seats available in the CSE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for CSE students at NIT Jalandhar.",
+        "How many students are enrolled in the CSE course at NIT Jalandhar?",
+        "What's the total number of seats for CSE students at NIT Jalandhar?",
+        "CSE branch student intake?",
+        "Number of seats in CSE?",
+        "Student capacity of CSE department?",
+        "How many admissions in CSE?",
+        "Intake for CSE students?",
+        "Seats available for CSE?",
+        "CSE admission capacity?",
+        "Number of students admitted to CSE?",
+        "Total seats in CSE branch?"
+      ],
+      "responses": [
+        "CSE has approsimately 180 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/cse/Student' target='_blank'>CSE Students</a>."
+      ]
+    },
+
+    {
+      "tag": "studentsplaced_CSE",
+      "patterns": [
+        "How many CSE students got placed at NIT Jalandhar?",
+        "What is the placement number for the CSE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the CSE department of NIT Jalandhar.",
+        "How many students from CSE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the CSE branch at NIT Jalandhar?",
+        "Number of CSE students placed?",
+        "Placement figures for CSE students at NIT Jalandhar?",
+        "How many students from Computer Science were placed?",
+        "NIT Jalandhar CSE placements - number of students?",
+        "Count of placed students in CSE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In CSE, approsimately 120 students are placed. Placement rate: 93.28%."
+      ]
+    },
+
+    {
+      "tag": "college_hours",
+      "patterns": [
+        "What are the college hours?",
+        "When does college start and end?",
+        "Tell me the college timing",
+        "College timing please",
+        "Can you tell me the college hours?",
+        "What time is college?",
+        "What's the daily schedule of the college?",
+        "What time does the college open and close?",
+        "College schedule?",
+        "When is the lunch break at college?",
+        "College timing"
+      ],
+      "responses": [
+        "College hours are from 8:30 AM to 12:30 PM, then 1:30 PM to 5:30 PM. There's a lunch break from 12:30 PM to 1:30 PM."
+      ]
+    },
+
+    {
+      "tag": "IT_Club",
+      "patterns": [
+        "IT Club",
+        "Club of Information Technology",
+        "Society of Information Technology"
+      ],
+      "responses": [
+        "CyberNauts is Society run by Information Technology department"
+      ]
+    },
+
+    {
+      "tag": "fest",
+      "patterns": [
+        "Tell me about college fests",
+        "What are the main fests in the college?",
+        "Does NIT Jalandhar have any fests?",
+        "College fest names?",
+        "Which fests are organized in NIT Jalandhar?",
+        "Do you have cultural and technical fests?",
+        "Fests in NIT Jalandhar?"
+      ],
+      "responses": [
+        "NIT Jalandhar has two main fests: one cultural and one technical. The cultural fest is called Utkansh, and the technical fest is called TechNITi."
+      ]
+    },
+
+    {
+      "tag": "Culturalfest",
+      "patterns": [
+        "What is the cultural fest of the college?",
+        "Tell me about the cultural fest",
+        "Name of cultural fest?",
+        "Cultural fest in NIT Jalandhar?",
+        "Do you have any cultural fest?",
+        "Which is the cultural fest?",
+        "College cultural event?",
+        "When is the cultural fest?",
+        "What’s the name of the college’s cultural fest?",
+        "Link to cultural fest website?"
+      ],
+      "responses": [
+        "The cultural fest of NIT Jalandhar is Utkansh. You can check it out here: <a href='https://www.utkansh.com/' target='_blank'>Utkansh Website</a>"
+      ]
+    },
+
+    {
+      "tag": "highestPackageCSE",
+      "patterns": [
+        "What is the highest package in CSE?",
+        "Tell me the highest package offered in CSE",
+        "Highest salary in CSE department?",
+        "How much is the top package in CSE?",
+        "Top placement package for CSE?",
+        "CSE highest placement package?",
+        "What is the max package for CSE students?",
+        "CSE top salary package?"
+      ],
+      "responses": ["CSE has highest package of 52LPA"]
+    },
+
+    {
+      "tag": "calendar",
+      "patterns": ["Academic Calendar", "academic calendar", "Calendar"],
+      "responses": [
+        {
+          "text": "Our Institute follows following academic calendar",
+          "media": [
+            {
+              "type": "pdf",
+              "path": "static/holidays/Academic_Calendar_Year_2025-2026.pdf",
+              "name": "Academic Calendar"
+            }
+          ]
+        }
+      ]
+    },
+
     {
       "tag": "sc_st_pwd_fee",
       "patterns": [
@@ -79,7 +231,6 @@
       "patterns": [
         "What are the common institute charges?",
         "List institutional charges",
-        "What is section B fee?",
         "What are the yearly non-tuition charges?"
       ],
       "responses": [
@@ -116,7 +267,8 @@
         "What is the semester-wise fee?",
         "Break fee by semester",
         "How much to pay each semester?",
-        "Semester fee details"
+        "Semester fee details",
+        "BTECH fee"
       ],
       "responses": [
         "Semester fees vary by category and year. For example, SC/ST hostelers pay ₹30,500 in 1st semester and ₹25,500 in others. General students with income above ₹5 lakh pay ₹93,000 in 1st sem and ₹88,000 in others."
@@ -164,8 +316,6 @@
       "patterns": [
         "branch wise placements",
         "placements by department",
-        "how many placed in cse",
-        "ece placement count",
         "students placed in each branch"
       ],
       "responses": [
@@ -196,9 +346,7 @@
       "tag": "highestbranchpackage",
       "patterns": [
         "which branch got highest package",
-        "top branch placement",
-        "highest salary in cse",
-        "highest in ece"
+        "top branch placement"
       ],
       "responses": [
         "CSE got the highest package, followed by ECE and IT. These branches saw offers up to ₹52 LPA."
@@ -291,63 +439,17 @@
       "patterns": [
         "Branch wise placements in 2022-23",
         "How many students placed from each branch?",
-        "Department wise placement numbers?",
-        "How was CSE placement?",
-        "Placement count for ECE, EE, ME, etc.?"
+        "Department wise placement numbers?"
       ],
       "responses": [
         "📊 **Branch-wise Placement (2022–23)**:\n- CSE: 113/120\n- ECE: 92/108\n- EE: 41/60\n- IT: 54/59\n- CHE: 84/93\n- ICE: 94/111\n- CIVIL: 75/93\n- IPE: 95/100\n- ME: 12/37\n- BT: 44/87\n- TT: 84/120"
       ]
     },
+    
     {
-      "tag": "averagepackage",
+      "tag": "averagepackagebranchwi22-23",
       "patterns": [
-        "What is the average package for each branch?",
-        "Branch wise CTC?",
-        "Average salary by department?",
-
-        "Tell me average package for CSE, ECE, etc.",
-        "What is the IT branch average package?",
-        "average package"
-      ],
-      "responses": [
-        "💰 **Average CTC (2022–23)**:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n- EE: ₹10.83 LPA\n- ICE: ₹9.94 LPA\n- CHE: ₹7.45 LPA\n- IPE: ₹8.29 LPA\n- ME: ₹8.18 LPA\n- CIVIL: ₹7.28 LPA\n- BT: ₹8.18 LPA\n- TT: ₹7.70 LPA"
-      ]
-    },
-    {
-      "tag": "highestbranchpackage",
-      "patterns": [
-        "Which branch got the highest package?",
-        "Branch wise highest package?",
-        "Top salary per department?",
-        "What is the highest package in CSE?",
-        "ECE highest offer?"
-      ],
-      "responses": [
-        "📌 Based on trends, **CSE received the highest packages**, followed by ECE and IT.\n\n🚀 **Top Average CTCs (2022–23)**:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n\nWhile specific max package values per branch aren't shown in the graphs, these departments lead in both **placements** and **salary range**."
-      ]
-    },
-    {
-      "tag": "highestpackage",
-      "patterns": [
-        "What is the highest package offered?",
-        "Tell me the highest salary received.",
-        "Maximum package offered?",
-        "Top offer in placements?",
-        "Which student got highest CTC?",
-        "highest package"
-      ],
-      "responses": [
-        "🎯 While the uploaded charts show **average CTCs**, the **highest overall package isn't explicitly mentioned**.\n\nHowever, based on typical NIT trends and strong average packages (like ₹16.74 LPA in CSE), the **highest package could be upwards of ₹40 LPA to ₹50+ LPA**, especially in tech profiles."
-      ]
-    },
-    {
-      "tag": "averagepackagebranchwise",
-      "patterns": [
-        "What is the average package for each branch at NIT Jalandhar?",
-        "Give me branch-wise average CTC for 2022-23.",
-        "Tell me average salary for branches at NITJ.",
-        "Package details branch-wise?"
+        "Give me branch-wise average CTC for 2022-23."
       ],
       "responses": [
         "Here's the average package (CTC) for each branch during the 2022–23 placements at NIT Jalandhar:\n- CSE: ₹16.74 LPA\n- ECE: ₹16.67 LPA\n- IT: ₹12.95 LPA\n- EE: ₹10.83 LPA\n- ICE: ₹9.94 LPA\n- ME: ₹8.18 LPA\n- IPE: ₹8.29 LPA\n- BT: ₹8.18 LPA\n- TT: ₹7.70 LPA\n- CHE: ₹7.45 LPA\n- CIVIL: ₹7.28 LPA"
@@ -357,7 +459,6 @@
       "tag": "highestpackagebranchwise",
       "patterns": [
         "Which branch has the highest package?",
-        "What is the highest package in CSE at NIT Jalandhar?",
         "Which branch got the top placement offer?",
         "Tell me highest CTC offered in IT branch.",
         "Highest package for each branch?"
@@ -748,7 +849,16 @@
         "Study leave details?"
       ],
       "responses": [
-        "The holiday schedule varies each year. You can check the academic calendar for details on semester breaks and special holidays."
+        {
+          "text": "The holiday schedule varies each year. You can check the academic calendar for details on semester breaks and special holidays.",
+          "media": [
+            {
+              "type": "pdf",
+              "path": "static/holidays/Academic_Calendar_Year_2025-2026.pdf",
+              "name": "Academic Calendar"
+            }
+          ]
+        }
       ]
     },
     {
