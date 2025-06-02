@@ -46,6 +46,65 @@
       ],
       "responses": [
         "<h3>Importance of Internships for Placements at NIT Jalandhar</h3><p>While internships are not officially mandatory for placements at NIT Jalandhar, they are highly recommended and play a significant role in enhancing a student’s profile. Here’s why internships are important:</p><ul><li><strong>Practical Experience:</strong> Internships provide hands-on industry exposure, which is valued by recruiters during placement interviews.</li><li><strong>Resume Boost:</strong> Having internship experience makes your resume stand out and demonstrates initiative and real-world problem-solving skills.</li><li><strong>Skill Development:</strong> Internships help students apply theoretical knowledge in practical settings, improving both technical and soft skills.</li><li><strong>PPO Opportunities:</strong> Many companies offer Pre-Placement Offers (PPOs) to interns who perform well, allowing students to secure job offers before the placement season begins.</li><li><strong>Interview Preparation:</strong> Internship experience often becomes a topic of discussion during technical and HR interviews, giving students more to talk about with confidence.</li></ul><p>Although it is possible to get placed without an internship, students with relevant experience tend to have a competitive edge. Hence, most students at NIT Jalandhar pursue internships, especially during the summer break after their pre-final year.</p>"
+        ]
+    },
+      "tag": "phd",
+      "patterns": [
+        "Does NIT Jalandhar offer PhD programs?",
+        "Tell me about PhD courses in NIT Jalandhar",
+        "Which departments offer PhD at NIT Jalandhar?",
+        "What is the admission process for PhD at NIT Jalandhar?",
+        "Can I pursue PhD in engineering at NIT Jalandhar?",
+        "What are the eligibility criteria for PhD in NIT Jalandhar?",
+        "How to apply for a PhD at NIT Jalandhar?",
+        "Are there full-time PhD programs at NIT Jalandhar?",
+        "Is there any part-time PhD option in NIT Jalandhar?",
+        "What are the research areas for PhD in NIT Jalandhar?",
+        "PHD",
+        "PHD in NIT Jalandhar"
+      ],
+      "responses": [
+        "Yes, NIT Jalandhar offers full-time and part-time PhD programs across various departments such as Engineering, Sciences, Management, and Humanities. The admission is based on a written test and/or interview. Candidates must have a relevant postgraduate degree with a good academic record. Detailed information can be found on the official NIT Jalandhar website under the 'Academics' or 'Admissions' section."
+      ]
+    },
+    {
+      "tag": "canteens",
+      "patterns": [
+        "Tell me about the canteens in NIT Jalandhar",
+        "No. of canteens in NTIJ",
+        "No. of canteens in NIT Jalandhar",
+        "canteens in NIT Jalandhar",
+        "Where can I eat on the NIT Jalandhar campus?",
+        "What food options are available at NIT Jalandhar?",
+        "Is there a night canteen in NIT Jalandhar?",
+        "What are the timings of the canteen at NIT Jalandhar?",
+        "Does NIT Jalandhar have a Campus Cafe?",
+        "Where is the Food Point in NIT Jalandhar?",
+        "Are South Indian dishes available in NIT Jalandhar canteens?",
+        "Name the canteens inside NIT Jalandhar",
+        "Is there any canteen near the Biotech department?"
+      ],
+      "responses": [
+        "<p><strong>NIT Jalandhar</strong> has several food outlets like <strong>Campus Canteen</strong> (8:30 AM - 8:00 PM), <strong>Food Point near Biotech</strong> (9:00 AM - 10:00 PM), <strong>Campus Cafe</strong>, <strong>Night Canteen</strong>, and <strong>Yadav Canteen</strong>, offering a variety of North and South Indian dishes, making them favorite hangout spots for students.</p>"
+      ]
+    },
+
+    {
+      "tag": "library",
+      "patterns": [
+        "Tell me about the library in NIT Jalandhar",
+        "What are the library facilities at NIT Jalandhar?",
+        "Is there a central library in NIT Jalandhar?",
+        "What are the timings of the NIT Jalandhar library?",
+        "Does the library have digital resources?",
+        "Can students access online journals at NIT Jalandhar?",
+        "How many books are there in the NIT Jalandhar library?",
+        "Is Wi-Fi available in the NIT Jalandhar library?",
+        "Are study rooms available in the library at NIT Jalandhar?",
+        "Is the library open on weekends at NIT Jalandhar?"
+      ],
+      "responses": [
+        "The central library at NIT Jalandhar is well-equipped with a vast collection of books, journals, and digital resources. It provides access to over 1 lakh books, national and international journals, e-books, and online databases. The library is Wi-Fi enabled, has dedicated reading areas, and offers both print and digital learning materials. It is open on weekdays and Saturdays, typically from morning till evening hours, to support academic and research needs."
       ]
     },
     {
@@ -474,10 +533,8 @@
     {
       "tag": "students_placed",
       "patterns": [
-        "How many students got placed in CSE",
         "Number of students placed in ECE",
         "Placement count in ME",
-        "How many students got jobs in IT",
         "Placed students in EE",
         "Placement numbers in CHE",
         "Students placed in IPE",
@@ -502,7 +559,9 @@
         "placement summary",
         "how many got placed",
         "year wise placement",
-        "total students placed"
+        "total students placed",
+        "placements in NIT Jalandhar",
+        "Overall placement trend"
       ],
       "responses": [
         "Here’s the placement overview:\n2019–20: 437 placed\n2020–21: 380 placed\n2021–22: 556 placed\n2022–23: 766 placed\nPlacements are improving every year."
@@ -700,12 +759,16 @@
       "tag": "ranking",
       "patterns": [
         "NIT Jalandhar ranking?",
+        "NIRF ranking of NIT Jalandhar",
+        "nirf ranking of NITJ",
+        "ranking of NITJ",
+        "NIRF ranking of NIT Jalandhar",
         "NIRF ranking",
         "College Rank",
         "NITJ Rank",
         "College position"
       ],
-      "responses": ["NIT Jalandhar has 46th NIRF ranking"]
+      "responses": ["NIT Jalandhar has 58th NIRF ranking"]
     },
 
     {
@@ -927,33 +990,6 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "tag": "faculty",
-      "patterns": [
-        "Who are the faculty members at NIT Jalandhar?",
-        "Tell me about the professors at NIT Jalandhar.",
-        "How experienced are the faculty members at NIT Jalandhar?",
-        "Where can I find details about NIT Jalandhar faculty?",
-        "Does NIT Jalandhar have good faculty?",
-        "Who are the HODs of different departments at NIT Jalandhar?",
-        "How can I contact a professor at NIT Jalandhar?",
-        "Where can I find the faculty directory of NIT Jalandhar?",
-        "Tell me about faculties.",
-        "Faculty details?",
-        "Who teaches at NIT Jalandhar?",
-        "Tell me about the teachers.",
-        "Professors at NIT Jalandhar?",
-        "Faculty experience?"
-      ],
-      "responses": [
-        "NIT Jalandhar has a team of highly qualified and experienced faculty members across various departments. You can explore the faculty list here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>NIT Jalandhar Faculty</a>.",
-        "The faculty at NIT Jalandhar consists of experienced professors, associate professors, and assistant professors who contribute to academic excellence and research. Learn more here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty at NIT Jalandhar</a>.",
-        "The faculty members at NIT Jalandhar have extensive academic and research experience, contributing to high-quality education and innovation. Check their profiles here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Profiles</a>.",
-        "You can contact faculty members at NIT Jalandhar through their official email IDs provided in the faculty directory. Find the details here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Directory</a>.",
-        "Yes, NIT Jalandhar has well-qualified faculty members with expertise in various engineering and research fields. Explore more about them here: <a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>Faculty Information</a>.",
-        "The Heads of Departments (HODs) at NIT Jalandhar oversee academic and administrative activities within their respective departments. Check the department heads here: <a href='https://www.nitj.ac.in/index.php/nitj_departments' target='_blank'>NIT Jalandhar HODs</a>."
       ]
     },
     {
@@ -1579,7 +1615,11 @@
     {
       "tag": "average_package_ece",
       "patterns": [
+        "Average package of ECE branch in NITJ ",
+        "Average pakcage of Electronics and Communication Engineering in NIT Jalandhar",
         "Average package of ECE in NIT Jalandhar",
+        "Average package of Electronics",
+        "Average package of Electronics Branch",
         "Electronics branch average salary NIT Jalandhar",
         "NITJ ECE average placement",
         "Average package of Electronics and Communication Engineering in NIT Jalandhar"
@@ -1653,6 +1693,241 @@
       ],
       "responses": [
         "<h3>Textile Technology - Average Package</h3><p>The average package for the Textile Technology branch at NIT Jalandhar is <strong>Rs. 5.8 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "director_info",
+      "patterns": [
+        "Who is the director of NIT Jalandhar?",
+        "Name of director of NITJ",
+        "Tell me about NITJ director",
+        "Director of NIT Jalandhar",
+        "NIT Jalandhar director name",
+        "Who is leading NIT Jalandhar?"
+      ],
+      "responses": [
+        "<h3>Director of NIT Jalandhar</h3><p>The Director of Dr B R Ambedkar National Institute of Technology Jalandhar (NITJ) is <strong>Prof. Binod Kumar Kanaujia</strong>.</p><p><strong>About:</strong> Prof. Binod Kumar Kanaujia is an esteemed academician and administrator currently leading NIT Jalandhar. Under his leadership, the institute is focusing on academic excellence, research advancement, and infrastructure development.</p><p><strong>Email:</strong> director@nitj.ac.in<br><strong>Phone (Office):</strong> +91-181-2690802<br><strong>EPABX:</strong> +91-181-2690301, 2690453<br><strong>Extn:</strong> 1000 (Office), 1002 (PA)<br><strong>Fax:</strong> +91-181-2690932</p>"
+      ]
+    },
+
+    {
+      "tag": "faculty_count",
+      "patterns": [
+        "How many faculty members are there in NIT Jalandhar?",
+        "Total number of faculties at NITJ",
+        "NIT Jalandhar faculty strength",
+        "Faculty count in NITJ",
+        "No. of teachers in NIT Jalandhar",
+        "Teaching staff in NIT Jalandhar"
+      ],
+      "responses": [
+        "<p>NIT Jalandhar has a strong academic staff of over <strong>200 faculty members</strong> across various departments, including engineering, sciences, management, and humanities. These faculty members are highly qualified, with many holding PhDs and engaging in active research and development projects.</p>"
+      ]
+    },
+    {
+      "tag": "intakeTextile",
+      "patterns": [
+        "What is the student intake for the Textile branch at NIT Jalandhar?",
+        "How many students are admitted to the Textile department at NIT Jalandhar?",
+        "What is the number of seats available in the Textile program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Textile students at NIT Jalandhar.",
+        "How many students are enrolled in the Textile course at NIT Jalandhar?",
+        "What's the total number of seats for Textile students at NIT Jalandhar?",
+        "Textile branch student intake?",
+        "Number of seats in Textile?",
+        "Student capacity of Textile department?",
+        "How many admissions in Textile?",
+        "Intake for Textile students?",
+        "Seats available for Textile?",
+        "Textile admission capacity?",
+        "Number of students admitted to Textile?",
+        "Total seats in Textile branch?"
+      ],
+      "responses": [
+        "Textile has approsimately 72 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/tt/Student' target='_blank'>Textile Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Textile",
+      "patterns": [
+        "How many Textile students got placed at NIT Jalandhar?",
+        "What is the placement number for the Textile branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Textile department of NIT Jalandhar.",
+        "How many students from Textile were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Textile branch at NIT Jalandhar?",
+        "Number of Textile students placed?",
+        "Placement figures for Textile students at NIT Jalandhar?",
+        "How many students from Textile were placed?",
+        "NIT Jalandhar Textile placements - number of students?",
+        "Count of placed students in Textile NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Textile, approsimately 38 students are placed. Placement rate: 52.77%."
+      ]
+    },
+    {
+      "tag": "intakeCivil",
+      "patterns": [
+        "What is the student intake for the Civil branch at NIT Jalandhar?",
+        "How many students are admitted to the Civil department at NIT Jalandhar?",
+        "What is the number of seats available in the Civil program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Civil students at NIT Jalandhar.",
+        "How many students are enrolled in the Civil course at NIT Jalandhar?",
+        "What's the total number of seats for Civil students at NIT Jalandhar?",
+        "Civil branch student intake?",
+        "Number of seats in Civil?",
+        "Student capacity of Civil department?",
+        "How many admissions in Civil?",
+        "Intake for Civil students?",
+        "Seats available for Civil?",
+        "Civil admission capacity?",
+        "Number of students admitted to Civil?",
+        "Total seats in Civil branch?"
+      ],
+      "responses": [
+        "Civil has approsimately 81 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ce/Student' target='_blank'>Civil Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Civil",
+      "patterns": [
+        "How many Civil students got placed at NIT Jalandhar?",
+        "What is the placement number for the Civil branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Civil department of NIT Jalandhar.",
+        "How many students from Civil were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Civil branch at NIT Jalandhar?",
+        "Number of Civil students placed?",
+        "Placement figures for Civil students at NIT Jalandhar?",
+        "How many students from  Civil were placed?",
+        "NIT Jalandhar Civil placements - number of students?",
+        "Count of placed students in Civil NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Civil, approsimately 66 students are placed. Placement rate: 81.48%."
+      ]
+    },
+    {
+      "tag": "intakeChemical",
+      "patterns": [
+        "What is the student intake for the Chemical branch at NIT Jalandhar?",
+        "How many students are admitted to the Chemical department at NIT Jalandhar?",
+        "What is the number of seats available in the Chemical program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Chemical students at NIT Jalandhar.",
+        "How many students are enrolled in the Chemical course at NIT Jalandhar?",
+        "What's the total number of seats for Chemical students at NIT Jalandhar?",
+        "Chemical branch student intake?",
+        "Number of seats in Chemical?",
+        "Student capacity of Chemical department?",
+        "How many admissions in Chemical?",
+        "Intake for Chemical students?",
+        "Seats available for Chemical?",
+        "Chemical admission capacity?",
+        "Number of students admitted to Chemical?",
+        "Total seats in Chemical branch?"
+      ],
+      "responses": [
+        "Chemical has approsimately 88 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ch/Student' target='_blank'>Chemical Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Chemical",
+      "patterns": [
+        "How many Chemical students got placed at NIT Jalandhar?",
+        "What is the placement number for the Chemical branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Chemical department of NIT Jalandhar.",
+        "How many students from Chemical were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Chemical branch at NIT Jalandhar?",
+        "Number of Chemical students placed?",
+        "Placement figures for Chemical students at NIT Jalandhar?",
+        "How many students from  Chemical were placed?",
+        "NIT Jalandhar Chemical placements - number of students?",
+        "Count of placed students in Chemical NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Chemical, approsimately 69 students are placed. Placement rate: 78.4%."
+      ]
+    },
+    {
+      "tag": "intakeECE",
+      "patterns": [
+        "What is the student intake for the ECE branch at NIT Jalandhar?",
+        "How many students are admitted to the ECE department at NIT Jalandhar?",
+        "What is the number of seats available in the ECE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for ECE students at NIT Jalandhar.",
+        "How many students are enrolled in the ECE course at NIT Jalandhar?",
+        "What's the total number of seats for ECE students at NIT Jalandhar?",
+        "ECE branch student intake?",
+        "Number of seats in ECE?",
+        "Student capacity of ECE department?",
+        "How many admissions in ECE?",
+        "Intake for ECE students?",
+        "Seats available for ECE?",
+        "ECE admission capacity?",
+        "Number of students admitted to ECE?",
+        "Total seats in ECE branch?"
+      ],
+      "responses": [
+        "ECE has approsimately 114 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ice/Student' target='_blank'>ICE Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_ICE",
+      "patterns": [
+        "How many ICE students got placed at NIT Jalandhar?",
+        "What is the placement number for the ICE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the ICE department of NIT Jalandhar.",
+        "How many students from ICE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the ICE branch at NIT Jalandhar?",
+        "Number of ICE students placed?",
+        "Placement figures for ICE students at NIT Jalandhar?",
+        "How many students from  ICE were placed?",
+        "NIT Jalandhar ICE placements - number of students?",
+        "Count of placed students in ICE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In ICE, approsimately 89 students are placed. Placement rate: 85.57%."
+      ]
+    },
+    {
+      "tag": "intakeICE",
+      "patterns": [
+        "What is the student intake for the ICE branch at NIT Jalandhar?",
+        "How many students are admitted to the ICE department at NIT Jalandhar?",
+        "What is the number of seats available in the ICE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for ICE students at NIT Jalandhar.",
+        "How many students are enrolled in the ICE course at NIT Jalandhar?",
+        "What's the total number of seats for ICE students at NIT Jalandhar?",
+        "ICE branch student intake?",
+        "Number of seats in ICE?",
+        "Student capacity of ICE department?",
+        "How many admissions in ICE?",
+        "Intake for ICE students?",
+        "Seats available for ICE?",
+        "ICE admission capacity?",
+        "Number of students admitted to ICE?",
+        "Total seats in ICE branch?"
+      ],
+      "responses": [
+        "ICE has approsimately 120 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ece/Student' target='_blank'>ICE Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_ECE",
+      "patterns": [
+        "How many ECE students got placed at NIT Jalandhar?",
+        "What is the placement number for the ECE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the ECE department of NIT Jalandhar.",
+        "How many students from ECE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the ECE branch at NIT Jalandhar?",
+        "Number of ECE students placed?",
+        "Placement figures for ECE students at NIT Jalandhar?",
+        "How many students from  ECE were placed?",
+        "NIT Jalandhar ECE placements - number of students?",
+        "Count of placed students in ECE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In ECE, approsimately 104 students are placed. Placement rate: 87.19%."
       ]
     }
   ]
