@@ -42,7 +42,7 @@ def chatbot_response(sentence):
     print(f"Input: {sentence}")
     print(f"Predicted tag: {tag}, Confidence: {prob:.4f}")
 
-    if prob > 0.68:  # Increased threshold
+    if prob > 0.4:  # Increased threshold
         for intent in intents["intents"]:
             if tag == intent["tag"]:
                 response = random.choice(intent["responses"])

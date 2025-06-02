@@ -1,6 +1,53 @@
 {
   "intents": [
     {
+      "tag": "internshiptypes",
+      "patterns": [
+        "how many months of internship is allowed in NIT Jalandhar?",
+        "tell me about internships at NIT Jalandhar",
+        "What is the duration of internships at NIT Jalandhar?",
+        "intenship in NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Internship Duration at NIT Jalandhar</h3><p>NIT Jalandhar permits students to undertake internships of varying durations, depending on their academic schedule and departmental guidelines. Typically, students can opt for:</p><ul><li><strong>6-month internship</strong>: Generally taken during the final semester, often referred to as a <strong>winter internship</strong>. It requires departmental approval and is aligned with academic credit requirements.</li><li><strong>2-month internship</strong>: Usually undertaken during the summer break between semesters. These internships are more flexible and common among pre-final year students looking to gain industrial exposure.</li></ul><p>All internships are subject to the department’s approval and must not interfere with academic obligations.</p>"
+      ]
+    },
+    {
+      "tag": "internship_companies",
+      "patterns": [
+        "What companies offer internships at NIT Jalandhar?",
+        "List of companies providing internships at NIT Jalandhar.",
+        "Can you tell me about the companies that hire interns from NIT Jalandhar?",
+        "Which companies recruit interns from NIT Jalandhar?",
+        "Companies for internships in NIT Jalandhar?",
+        "Internship companies NIT Jalandhar?",
+        "What are the top companies for internships at NIT Jalandhar?",
+        "Can you name some companies that take interns from NIT Jalandhar?",
+        "Companies offering internships NIT Jalandhar?",
+        "Companies visiting NITJ for internships?"
+      ],
+      "responses": [
+        "<h3>Companies Offering Internships at NIT Jalandhar</h3><p>Students of NIT Jalandhar have access to a wide range of internship opportunities through campus placements, alumni networks, and independent applications. Some of the prominent companies that have offered internships to NIT Jalandhar students in recent years include:</p><ul><li><strong>Microsoft</strong></li><li><strong>Amazon</strong></li><li><strong>Samsung R&D</strong></li><li><strong>Adobe</strong></li><li><strong>Wipro</strong></li><li><strong>Tata Consultancy Services (TCS)</strong></li><li><strong>Infosys</strong></li><li><strong>Publicis Sapient</strong></li><li><strong>ZS Associates</strong></li><li><strong>Maruti Suzuki</strong></li><li><strong>Mahindra & Mahindra</strong></li><li><strong>BHEL</strong></li><li><strong>DRDO</strong></li><li><strong>ISRO</strong></li></ul><p>These companies offer internships across diverse domains such as software development, data analytics, electronics, mechanical engineering, business consulting, and research. Availability of internships may vary by department and academic year, and selection typically involves technical interviews and/or online assessments.</p><p>Students are encouraged to also explore internship platforms like Internshala, LinkedIn, and company career pages for additional opportunities.</p>"
+      ]
+    },
+    {
+      "tag": "internship_requrements",
+      "patterns": [
+        "Is internship important for securing placements at NIT Jalandhar?",
+        "Do I need an internship to get placed from NIT Jalandhar?",
+        "Is it necessary to do an internship for placements in NIT Jalandhar?",
+        "Are internships mandatory for placements at NIT Jalandhar?",
+        "Do companies require internship experience for placements at NIT Jalandhar?",
+        "Is internship experience needed for getting placed from NIT Jalandhar?",
+        "Can I get placed without an internship from NIT Jalandhar?",
+        "How important are internships for placements in NIT Jalandhar?",
+        "Do most students do internships before placements at NIT Jalandhar?",
+        "What is the role of internships in securing placements at NIT Jalandhar?"
+      ],
+      "responses": [
+        "<h3>Importance of Internships for Placements at NIT Jalandhar</h3><p>While internships are not officially mandatory for placements at NIT Jalandhar, they are highly recommended and play a significant role in enhancing a student’s profile. Here’s why internships are important:</p><ul><li><strong>Practical Experience:</strong> Internships provide hands-on industry exposure, which is valued by recruiters during placement interviews.</li><li><strong>Resume Boost:</strong> Having internship experience makes your resume stand out and demonstrates initiative and real-world problem-solving skills.</li><li><strong>Skill Development:</strong> Internships help students apply theoretical knowledge in practical settings, improving both technical and soft skills.</li><li><strong>PPO Opportunities:</strong> Many companies offer Pre-Placement Offers (PPOs) to interns who perform well, allowing students to secure job offers before the placement season begins.</li><li><strong>Interview Preparation:</strong> Internship experience often becomes a topic of discussion during technical and HR interviews, giving students more to talk about with confidence.</li></ul><p>Although it is possible to get placed without an internship, students with relevant experience tend to have a competitive edge. Hence, most students at NIT Jalandhar pursue internships, especially during the summer break after their pre-final year.</p>"
+        ]
+    },
       "tag": "phd",
       "patterns": [
         "Does NIT Jalandhar offer PhD programs?",
@@ -807,23 +854,20 @@
       ]
     },
     {
-      "tag": "placement",
+      "tag": "T&P",
       "patterns": [
-        "What is the placement process at NIT Jalandhar?",
-        "How can I get placed through NIT Jalandhar?",
+        "What is the Training & Placement Centre?",
+        "Tell me about T&P at NIT Jalandhar.",
+        "How does the T&P Centre work?",
+        "What services does the T&P Centre provide?",
+        "How can I contact the T&P Centre?",
+        "T&P Centre details",
+        "T&P Centre contact information",
+        "T&P Centre services",
+        "T&P Centre role in placements",
+        "T&P Centre functions",
         "Tell me about the T&P Centre at NIT Jalandhar.",
-        "What companies recruit from NIT Jalandhar?",
-        "Does NIT Jalandhar help with internships and placements?",
-        "How can I apply for internships or placements at NIT Jalandhar?",
-        "How successful is the placement rate at NIT Jalandhar?",
-        "What is the role of T&P Centre in the recruitment process at NIT Jalandhar?",
-        "How are placements coordinated at NIT Jalandhar?",
-        "Tell me about placements.",
-        "Placements at NIT Jalandhar?",
-        "How good are placements?",
-        "Job opportunities at NIT Jalandhar?",
-        "Tell me about internship options.",
-        "Placement stats?"
+        "What is the role of T&P Centre in the recruitment process at NIT Jalandhar?"
       ],
       "responses": [
         {
@@ -865,7 +909,27 @@
               "name": "Placement Brochure"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is the placement process at NIT Jalandhar?",
+        "How can I get placed through NIT Jalandhar?",
+
+        "What companies recruit from NIT Jalandhar?",
+        "How successful is the placement rate at NIT Jalandhar?",
+
+        "How are placements coordinated at NIT Jalandhar?",
+        "Tell me about placements.",
+        "Placements at NIT Jalandhar?",
+        "How good are placements?",
+        "Job opportunities at NIT Jalandhar?",
+        "Tell me about internship options.",
+        "Placement stats?"
+      ],
+      "responses": [
         {
           "text": "Yes, NIT Jalandhar assists students in securing internships and placements. The T&P Centre invites companies, arranges Pre-Placement Talks (PPT), and conducts interviews. Learn more about internship opportunities here: <a href='https://ctp.nitj.ac.in/index_placements' target='_blank'>Internship and Placement Information</a>.",
           "media": [
@@ -1557,7 +1621,8 @@
         "Average package of Electronics",
         "Average package of Electronics Branch",
         "Electronics branch average salary NIT Jalandhar",
-        "NITJ ECE average placement"
+        "NITJ ECE average placement",
+        "Average package of Electronics and Communication Engineering in NIT Jalandhar"
       ],
       "responses": [
         "<h3>Electronics and Communication Engineering - Average Package</h3><p>The average package for the ECE branch at NIT Jalandhar is <strong>Rs. 10 LPA</strong>.</p>"
