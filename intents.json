@@ -1659,6 +1659,211 @@
       "responses": [
         "<p>NIT Jalandhar has a strong academic staff of over <strong>200 faculty members</strong> across various departments, including engineering, sciences, management, and humanities. These faculty members are highly qualified, with many holding PhDs and engaging in active research and development projects.</p>"
       ]
+    },
+    {
+      "tag": "intakeTextile",
+      "patterns": [
+        "What is the student intake for the Textile branch at NIT Jalandhar?",
+        "How many students are admitted to the Textile department at NIT Jalandhar?",
+        "What is the number of seats available in the Textile program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Textile students at NIT Jalandhar.",
+        "How many students are enrolled in the Textile course at NIT Jalandhar?",
+        "What's the total number of seats for Textile students at NIT Jalandhar?",
+        "Textile branch student intake?",
+        "Number of seats in Textile?",
+        "Student capacity of Textile department?",
+        "How many admissions in Textile?",
+        "Intake for Textile students?",
+        "Seats available for Textile?",
+        "Textile admission capacity?",
+        "Number of students admitted to Textile?",
+        "Total seats in Textile branch?"
+      ],
+      "responses": [
+        "Textile has approsimately 72 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/tt/Student' target='_blank'>Textile Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Textile",
+      "patterns": [
+        "How many Textile students got placed at NIT Jalandhar?",
+        "What is the placement number for the Textile branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Textile department of NIT Jalandhar.",
+        "How many students from Textile were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Textile branch at NIT Jalandhar?",
+        "Number of Textile students placed?",
+        "Placement figures for Textile students at NIT Jalandhar?",
+        "How many students from Textile were placed?",
+        "NIT Jalandhar Textile placements - number of students?",
+        "Count of placed students in Textile NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Textile, approsimately 38 students are placed. Placement rate: 52.77%."
+      ]
+    },
+    {
+      "tag": "intakeCivil",
+      "patterns": [
+        "What is the student intake for the Civil branch at NIT Jalandhar?",
+        "How many students are admitted to the Civil department at NIT Jalandhar?",
+        "What is the number of seats available in the Civil program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Civil students at NIT Jalandhar.",
+        "How many students are enrolled in the Civil course at NIT Jalandhar?",
+        "What's the total number of seats for Civil students at NIT Jalandhar?",
+        "Civil branch student intake?",
+        "Number of seats in Civil?",
+        "Student capacity of Civil department?",
+        "How many admissions in Civil?",
+        "Intake for Civil students?",
+        "Seats available for Civil?",
+        "Civil admission capacity?",
+        "Number of students admitted to Civil?",
+        "Total seats in Civil branch?"
+      ],
+      "responses": [
+        "Civil has approsimately 81 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ce/Student' target='_blank'>Civil Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Civil",
+      "patterns": [
+        "How many Civil students got placed at NIT Jalandhar?",
+        "What is the placement number for the Civil branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Civil department of NIT Jalandhar.",
+        "How many students from Civil were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Civil branch at NIT Jalandhar?",
+        "Number of Civil students placed?",
+        "Placement figures for Civil students at NIT Jalandhar?",
+        "How many students from  Civil were placed?",
+        "NIT Jalandhar Civil placements - number of students?",
+        "Count of placed students in Civil NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Civil, approsimately 66 students are placed. Placement rate: 81.48%."
+      ]
+    },
+    {
+      "tag": "intakeChemical",
+      "patterns": [
+        "What is the student intake for the Chemical branch at NIT Jalandhar?",
+        "How many students are admitted to the Chemical department at NIT Jalandhar?",
+        "What is the number of seats available in the Chemical program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Chemical students at NIT Jalandhar.",
+        "How many students are enrolled in the Chemical course at NIT Jalandhar?",
+        "What's the total number of seats for Chemical students at NIT Jalandhar?",
+        "Chemical branch student intake?",
+        "Number of seats in Chemical?",
+        "Student capacity of Chemical department?",
+        "How many admissions in Chemical?",
+        "Intake for Chemical students?",
+        "Seats available for Chemical?",
+        "Chemical admission capacity?",
+        "Number of students admitted to Chemical?",
+        "Total seats in Chemical branch?"
+      ],
+      "responses": [
+        "Chemical has approsimately 88 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ch/Student' target='_blank'>Chemical Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Chemical",
+      "patterns": [
+        "How many Chemical students got placed at NIT Jalandhar?",
+        "What is the placement number for the Chemical branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Chemical department of NIT Jalandhar.",
+        "How many students from Chemical were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Chemical branch at NIT Jalandhar?",
+        "Number of Chemical students placed?",
+        "Placement figures for Chemical students at NIT Jalandhar?",
+        "How many students from  Chemical were placed?",
+        "NIT Jalandhar Chemical placements - number of students?",
+        "Count of placed students in Chemical NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Chemical, approsimately 69 students are placed. Placement rate: 78.4%."
+      ]
+    },
+    {
+      "tag": "intakeECE",
+      "patterns": [
+        "What is the student intake for the ECE branch at NIT Jalandhar?",
+        "How many students are admitted to the ECE department at NIT Jalandhar?",
+        "What is the number of seats available in the ECE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for ECE students at NIT Jalandhar.",
+        "How many students are enrolled in the ECE course at NIT Jalandhar?",
+        "What's the total number of seats for ECE students at NIT Jalandhar?",
+        "ECE branch student intake?",
+        "Number of seats in ECE?",
+        "Student capacity of ECE department?",
+        "How many admissions in ECE?",
+        "Intake for ECE students?",
+        "Seats available for ECE?",
+        "ECE admission capacity?",
+        "Number of students admitted to ECE?",
+        "Total seats in ECE branch?"
+      ],
+      "responses": [
+        "ECE has approsimately 114 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ice/Student' target='_blank'>ICE Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_ICE",
+      "patterns": [
+        "How many ICE students got placed at NIT Jalandhar?",
+        "What is the placement number for the ICE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the ICE department of NIT Jalandhar.",
+        "How many students from ICE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the ICE branch at NIT Jalandhar?",
+        "Number of ICE students placed?",
+        "Placement figures for ICE students at NIT Jalandhar?",
+        "How many students from  ICE were placed?",
+        "NIT Jalandhar ICE placements - number of students?",
+        "Count of placed students in ICE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In ICE, approsimately 89 students are placed. Placement rate: 85.57%."
+      ]
+    },
+    {
+      "tag": "intakeICE",
+      "patterns": [
+        "What is the student intake for the ICE branch at NIT Jalandhar?",
+        "How many students are admitted to the ICE department at NIT Jalandhar?",
+        "What is the number of seats available in the ICE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for ICE students at NIT Jalandhar.",
+        "How many students are enrolled in the ICE course at NIT Jalandhar?",
+        "What's the total number of seats for ICE students at NIT Jalandhar?",
+        "ICE branch student intake?",
+        "Number of seats in ICE?",
+        "Student capacity of ICE department?",
+        "How many admissions in ICE?",
+        "Intake for ICE students?",
+        "Seats available for ICE?",
+        "ICE admission capacity?",
+        "Number of students admitted to ICE?",
+        "Total seats in ICE branch?"
+      ],
+      "responses": [
+        "ICE has approsimately 120 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ece/Student' target='_blank'>ICE Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_ECE",
+      "patterns": [
+        "How many ECE students got placed at NIT Jalandhar?",
+        "What is the placement number for the ECE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the ECE department of NIT Jalandhar.",
+        "How many students from ECE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the ECE branch at NIT Jalandhar?",
+        "Number of ECE students placed?",
+        "Placement figures for ECE students at NIT Jalandhar?",
+        "How many students from  ECE were placed?",
+        "NIT Jalandhar ECE placements - number of students?",
+        "Count of placed students in ECE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In ECE, approsimately 104 students are placed. Placement rate: 87.19%."
+      ]
     }
   ]
 }
