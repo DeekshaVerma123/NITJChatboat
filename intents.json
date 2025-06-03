@@ -46,8 +46,9 @@
       ],
       "responses": [
         "<h3>Importance of Internships for Placements at NIT Jalandhar</h3><p>While internships are not officially mandatory for placements at NIT Jalandhar, they are highly recommended and play a significant role in enhancing a student’s profile. Here’s why internships are important:</p><ul><li><strong>Practical Experience:</strong> Internships provide hands-on industry exposure, which is valued by recruiters during placement interviews.</li><li><strong>Resume Boost:</strong> Having internship experience makes your resume stand out and demonstrates initiative and real-world problem-solving skills.</li><li><strong>Skill Development:</strong> Internships help students apply theoretical knowledge in practical settings, improving both technical and soft skills.</li><li><strong>PPO Opportunities:</strong> Many companies offer Pre-Placement Offers (PPOs) to interns who perform well, allowing students to secure job offers before the placement season begins.</li><li><strong>Interview Preparation:</strong> Internship experience often becomes a topic of discussion during technical and HR interviews, giving students more to talk about with confidence.</li></ul><p>Although it is possible to get placed without an internship, students with relevant experience tend to have a competitive edge. Hence, most students at NIT Jalandhar pursue internships, especially during the summer break after their pre-final year.</p>"
-        ]
+      ]
     },
+    {
       "tag": "phd",
       "patterns": [
         "Does NIT Jalandhar offer PhD programs?",
@@ -179,6 +180,205 @@
         "There are currently 14 faculty members in the Information Technology department at NIT Jalandhar. You can find more details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/it/Faculty' target='_blank'>IT Faculty</a>."
       ]
     },
+
+    {
+      "tag": "ECE_faculty_count",
+      "patterns": [
+        "How many ECE faculty are there at NIT Jalandhar?",
+        "What is the number of ECE professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the ECE department of NIT Jalandhar.",
+        "Number of teachers in the Electronics and Communication department at NIT Jalandhar?",
+        "How many professors are in the ECE branch at NIT Jalandhar?",
+        "ECE faculty strength at NIT Jalandhar?",
+        "Count of ECE lecturers at NIT Jalandhar?",
+        "What's the total number of ECE department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the ECE department?",
+        "Total faculty in ECE?",
+        "ECE department faculty count?",
+        "Number of ECE teachers?",
+        "Faculty strength of ECE department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ece/Faculty' target='_blank'>ECE Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Electrical_faculty_count",
+      "patterns": [
+        "How many Electrical faculty are there at NIT Jalandhar?",
+        "What is the number of Electrical professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Electrical department of NIT Jalandhar.",
+        "Number of teachers in the Electrical department at NIT Jalandhar?",
+        "How many professors are in the Electrical branch at NIT Jalandhar?",
+        "Electrical faculty strength at NIT Jalandhar?",
+        "Count of Electrical lecturers at NIT Jalandhar?",
+        "What's the total number of Electrical department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Electrical department?",
+        "Total faculty in Electrical?",
+        "Electrical department faculty count?",
+        "Number of Electrical teachers?",
+        "Faculty strength of Electrical department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ee/Faculty' target='_blank'>Electrical Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "ICE_faculty_count",
+      "patterns": [
+        "How many ICE faculty are there at NIT Jalandhar?",
+        "What is the number of ICE professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the ICE department of NIT Jalandhar.",
+        "Number of teachers in the ICE department at NIT Jalandhar?",
+        "How many professors are in the ICE branch at NIT Jalandhar?",
+        "Instrumentation and control engineering faculty strength at NIT Jalandhar?",
+        "Count of ICE lecturers at NIT Jalandhar?",
+        "What's the total number of ICE department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the ICE department?",
+        "Total faculty in ICE?",
+        "ICE department faculty count?",
+        "Number of ICE teachers?",
+        "Faculty strength of ICE department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ice/Faculty' target='_blank'>ICE Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Chemical_faculty_count",
+      "patterns": [
+        "How many Chemical faculty are there at NIT Jalandhar?",
+        "What is the number of Chemical professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Chemical department of NIT Jalandhar.",
+        "Number of teachers in the Chemical department at NIT Jalandhar?",
+        "How many professors are in the Chemical branch at NIT Jalandhar?",
+        "Chemical engineering faculty strength at NIT Jalandhar?",
+        "Count of Chemical lecturers at NIT Jalandhar?",
+        "What's the total number of Chemical department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Chemical department?",
+        "Total faculty in Chemical?",
+        "Chemical department faculty count?",
+        "Number of Chemical teachers?",
+        "Faculty strength of Chemical department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ch/Faculty' target='_blank'>Chemical Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Civil_faculty_count",
+      "patterns": [
+        "How many Civil faculty are there at NIT Jalandhar?",
+        "What is the number of Civil professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Civil department of NIT Jalandhar.",
+        "Number of teachers in the Civil department at NIT Jalandhar?",
+        "How many professors are in the Civil branch at NIT Jalandhar?",
+        "Civil engineering faculty strength at NIT Jalandhar?",
+        "Count of Civil lecturers at NIT Jalandhar?",
+        "What's the total number of Civil department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Civil department?",
+        "Total faculty in Civil?",
+        "Civil department faculty count?",
+        "Number of Civil teachers?",
+        "Faculty strength of Civil department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ce/Faculty' target='_blank'>Civil Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Mechanical_faculty_count",
+      "patterns": [
+        "How many Mechanical faculty are there at NIT Jalandhar?",
+        "What is the number of Mechanical professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Mechanical department of NIT Jalandhar.",
+        "Number of teachers in the Mechanical department at NIT Jalandhar?",
+        "How many professors are in the Mechanical branch at NIT Jalandhar?",
+        "Mechanical engineering faculty strength at NIT Jalandhar?",
+        "Count of Mechanical lecturers at NIT Jalandhar?",
+        "What's the total number of Mechanical department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Mechanical department?",
+        "Total faculty in Mechanical?",
+        "Mechanical department faculty count?",
+        "Number of Mechanical teachers?",
+        "Faculty strength of Mechanical department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/me/Faculty' target='_blank'>Mechanical Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Biotech_faculty_count",
+      "patterns": [
+        "How many Biotechnology faculty are there at NIT Jalandhar?",
+        "What is the number of Biotechnology professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Biotechnology department of NIT Jalandhar.",
+        "Number of teachers in the Biotechnology department at NIT Jalandhar?",
+        "How many professors are in the Biotechnology branch at NIT Jalandhar?",
+        "Biotechnology faculty strength at NIT Jalandhar?",
+        "Count of Biotechnology lecturers at NIT Jalandhar?",
+        "What's the total number of Biotechnology department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Biotechnology department?",
+        "Total faculty in Biotechnology?",
+        "Biotechnology department faculty count?",
+        "Number of Biotechnology teachers?",
+        "Faculty strength of Biotechnology department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/bt/Faculty' target='_blank'>Biotechnology Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "IP_faculty_count",
+      "patterns": [
+        "How many IP faculty are there at NIT Jalandhar?",
+        "What is the number of IP professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the IP department of NIT Jalandhar.",
+        "Number of teachers in the IP department at NIT Jalandhar?",
+        "How many professors are in the IP branch at NIT Jalandhar?",
+        "IP  faculty strength at NIT Jalandhar?",
+        "Count of IP lecturers at NIT Jalandhar?",
+        "What's the total number of IP department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the IP department?",
+        "Total faculty in IP?",
+        "IP department faculty count?",
+        "Number of IP teachers?",
+        "Faculty strength of IP department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/ipe/Faculty' target='_blank'>IP Faculty</a>."
+      ]
+    },
+
+    {
+      "tag": "Textile_faculty_count",
+      "patterns": [
+        "How many Textile faculty are there at NIT Jalandhar?",
+        "What is the number of Textile professors in NIT Jalandhar?",
+        "Tell me the count of faculty members in the Textile department of NIT Jalandhar.",
+        "Number of teachers in the Textile department at NIT Jalandhar?",
+        "How many professors are in the Textile branch at NIT Jalandhar?",
+        "Textile faculty strength at NIT Jalandhar?",
+        "Count of Textile lecturers at NIT Jalandhar?",
+        "What's the total number of Textile department faculty in NIT Jalandhar?",
+        "How many teaching staff are in the Textile department?",
+        "Total faculty in Textile?",
+        "Textile department faculty count?",
+        "Number of Textile teachers?",
+        "Faculty strength of Textile department?"
+      ],
+      "responses": [
+        "You can find details on the official department webpage:<a href='https://departments.nitj.ac.in/dept/tt/Faculty' target='_blank'>Textile Faculty</a>."
+      ]
+    },
+
     {
       "tag": "it_student_intake",
       "patterns": [
@@ -1517,7 +1717,8 @@
         "NITJ CSE highest placement",
         "highest package of CSE branch of NITJ",
         "Top salary offered in Computer Science at NIT Jalandhar",
-        "CSE highest package NIT Jalandhar"
+        "CSE highest package NIT Jalandhar",
+        "cse highest package NIT Jalandhar"
       ],
       "responses": [
         "<h3>Computer Science and Engineering - Highest Package</h3><p>The highest package for the CSE branch at NIT Jalandhar is <strong>Rs. 52 LPA</strong>.</p>"
@@ -1546,6 +1747,17 @@
       ]
     },
     {
+      "tag": "highest_package_electrical",
+      "patterns": [
+        "Highest package of Electrical in NIT Jalandhar",
+        "Top package for electrical branch NIT Jalandhar",
+        "Electrical branch highest salary in NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Electrical Engineering - Highest Package</h3><p>The highest package for the EE branch at NIT Jalandhar is <strong>Rs. 52 LPA</strong>.</p>"
+      ]
+    },
+    {
       "tag": "highest_package_mechanical",
       "patterns": [
         "Highest package of Mechanical branch in NIT Jalandhar",
@@ -1568,9 +1780,62 @@
       ]
     },
     {
+      "tag": "highest_package_chemical",
+      "patterns": [
+        "Highest package of Chemical in NIT Jalandhar",
+        "Highest package of chemical in NIT Jalandhar",
+        "Chemical Engineering highest salary NIT Jalandhar",
+        "Top package Chemical branch NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Chemical Engineering - Highest Package</h3><p>The highest package for the Chemical Engineering branch at NIT Jalandhar is <strong>Rs. 15.12 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_ice",
+      "patterns": [
+        "Highest package of ICE in NIT Jalandhar",
+        "Highest package of ice in NIT Jalandhar",
+        "Highest package of instrumentation and control engineering in NIT Jalandhar",
+        "Instrumentation and control Engineering highest salary NIT Jalandhar",
+        "Top package ICE branch NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>ICE - Highest Package</h3><p>The highest package for the ICE branch at NIT Jalandhar is <strong>Rs. 15.12 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_textile",
+      "patterns": [
+        "Highest package of Textile in NIT Jalandhar",
+        "Highest package of textile in NIT Jalandhar",
+        "Highest package of textile engineering in NIT Jalandhar",
+        "Textile engineering highest salary NIT Jalandhar",
+        "Top package textile branch NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Textile Engineering - Highest Package</h3><p>The highest package for the Textile Engineering branch at NIT Jalandhar is <strong>Rs. 18 LPA</strong>.</p>"
+      ]
+    },
+    {
+      "tag": "highest_package_ip",
+      "patterns": [
+        "Highest package of Industrial Production in NIT Jalandhar",
+        "Highest package of industrial production in NIT Jalandhar",
+        "Highest package of industrial production in NIT Jalandhar",
+        "Industrial production highest salary NIT Jalandhar",
+        "Top package IP branch NIT Jalandhar",
+        "Top package ip branch NIT Jalandhar"
+      ],
+      "responses": [
+        "<h3>Industrial Production - Highest Package</h3><p>The highest package for the Industrial Production branch at NIT Jalandhar is <strong>Rs. 18.87 LPA</strong>.</p>"
+      ]
+    },
+    {
       "tag": "highest_package_biotech",
       "patterns": [
         "Highest package of Biotechnology in NIT Jalandhar",
+        "Highest package of biotechnology in NIT Jalandhar",
         "Top placement package Biotechnology NIT Jalandhar",
         "NIT Jalandhar Biotech highest package"
       ],
@@ -1587,6 +1852,40 @@
       ],
       "responses": [
         "<h3>Mathematics and Computing - Highest Package</h3><p>The highest package for the Mathematics and Computing branch at NIT Jalandhar is <strong>Rs. 30 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "2023placement",
+      "patterns": [
+        "What is the average package for 2023 placements?",
+        "Give branch-wise placement stats for 2023 batch",
+        "Average salary for NIT Jalandhar 2023 passouts",
+        "2023 placement details for all branches",
+        "How were the placements for 2023 batch?",
+        "NITJ average package 2023",
+        "Tell me 2023 placement stats branch-wise",
+        "Branch wise average placement NITJ 2023"
+      ],
+      "responses": [
+        "<b>NIT Jalandhar - 2023 Branch-wise Average Packages (in LPA):</b><br><br><table border='1' cellpadding='5' cellspacing='0'><tr><th>Branch</th><th>Average Package</th></tr><tr><td>Computer Science & Engineering (CSE)</td><td>₹16.74</td></tr><tr><td>Electronics & Communication (ECE)</td><td>₹16.75</td></tr><tr><td>Information Technology (IT)</td><td>₹12.95</td></tr><tr><td>Electrical Engineering (EE)</td><td>₹10.86</td></tr><tr><td>Instrumentation & Control (ICE)</td><td>₹9.61</td></tr><tr><td>Industrial & Production (IPE)</td><td>₹8.82</td></tr><tr><td>Mechanical Engineering (ME)</td><td>₹8.30</td></tr><tr><td>Biotechnology (BT)</td><td>₹8.34</td></tr><tr><td>Textile Technology (TT)</td><td>₹7.75</td></tr><tr><td>Civil Engineering</td><td>₹7.50</td></tr><tr><td>Chemical Engineering (CHE)</td><td>₹7.35</td></tr><tr><td><b>Overall Average</b></td><td><b>₹12.44</b></td></tr></table><br> <b>Highest Package:</b> ₹51 LPA (CSE, ECE, IT)<br> <b>Placement Rate:</b> 73.79% (766 out of 950 students placed)"
+      ]
+    },
+
+    {
+      "tag": "2024placement",
+      "patterns": [
+        "What is the average package for 2024 placements?",
+        "Give branch-wise placement stats for 2024 batch",
+        "Average salary for NIT Jalandhar 2024 passouts",
+        "2024 placement details for all branches",
+        "How were the placements for 2024 batch?",
+        "NITJ average package 2024",
+        "Tell me 2024 placement stats branch-wise",
+        "Branch wise average placement NITJ 2024"
+      ],
+      "responses": [
+        "<b>NIT Jalandhar - 2024 Branch-wise Average Packages (in LPA):</b><br><br><table border='1' cellpadding='5' cellspacing='0'><tr><th>Branch</th><th>Average Package</th></tr><tr><td>Computer Science & Engineering (CSE)</td><td>₹13.44</td></tr><tr><td>Information Technology (IT)</td><td>₹11.47</td></tr><tr><td>Electronics & Communication Engineering (ECE)</td><td>₹10.53</td></tr><tr><td>Electrical Engineering (EE)</td><td>₹10.86</td></tr><tr><td>Instrumentation & Control Engineering (ICE)</td><td>₹9.61</td></tr><tr><td>Industrial & Production Engineering (IPE)</td><td>₹8.82</td></tr><tr><td>Mechanical Engineering (ME)</td><td>₹8.30</td></tr><tr><td>Biotechnology (BT)</td><td>₹8.34</td></tr><tr><td>Chemical Engineering (CHE)</td><td>₹7.35</td></tr><tr><td>Textile Technology (TT)</td><td>₹7.75</td></tr><tr><td>Civil Engineering</td><td>₹7.50</td></tr><tr><td><b>Overall Average</b></td><td><b>₹9.48</b></td></tr></table><br> <b>Highest Package:</b> ₹52 LPA (CSE, ECE, IT)<br> <b>Placement Rate:</b> 86.31% (700 out of 811 eligible students placed)"
       ]
     },
 
@@ -1619,6 +1918,7 @@
         "Average pakcage of Electronics and Communication Engineering in NIT Jalandhar",
         "Average package of ECE in NIT Jalandhar",
         "Average package of Electronics",
+        "Average package of ece",
         "Average package of Electronics Branch",
         "Electronics branch average salary NIT Jalandhar",
         "NITJ ECE average placement",
@@ -1654,6 +1954,7 @@
       "tag": "average_package_mechanical",
       "patterns": [
         "Average package of Mechanical in NIT Jalandhar",
+        "Average package of mechanical in NIT Jalandhar",
         "Mechanical Engineering average salary NITJ",
         "NIT Jalandhar ME average package"
       ],
@@ -1665,6 +1966,7 @@
       "tag": "average_package_civil",
       "patterns": [
         "Average package of Civil in NIT Jalandhar",
+        "Average package of civil in NIT Jalandhar",
         "Civil Engineering average salary in NITJ",
         "NITJ Civil average package"
       ],
@@ -1676,6 +1978,7 @@
       "tag": "average_package_biotech",
       "patterns": [
         "Average package of Biotechnology in NIT Jalandhar",
+        "Average package of biotechnology in NIT Jalandhar",
         "NITJ Biotech average salary",
         "Biotech branch average package NIT Jalandhar"
       ],
@@ -1687,12 +1990,70 @@
       "tag": "average_package_textile",
       "patterns": [
         "Average package of Textile in NIT Jalandhar",
+        "Average package of textile in NIT Jalandhar",
         "Average offer of Textile Technology in NITJ",
         "Textile Engineering average salary NITJ",
         "NITJ Textile average package"
       ],
       "responses": [
         "<h3>Textile Technology - Average Package</h3><p>The average package for the Textile Technology branch at NIT Jalandhar is <strong>Rs. 5.8 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "average_package_electrical",
+      "patterns": [
+        "Average package of Electrical in NIT Jalandhar",
+        "Average offer of Electrical  in NITJ",
+        "Electrical Engineering average salary NITJ",
+        "NITJ Electrical average package",
+        "average package of electrical",
+        "average package of EE"
+      ],
+      "responses": [
+        "<h3>Electrical - Average Package</h3><p>The average package for the Electrical branch at NIT Jalandhar is <strong>Rs. 10.83 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "average_package_ip",
+      "patterns": [
+        "Average package of IP in NIT Jalandhar",
+        "Average offer of IP  in NITJ",
+        "Industrial Production average salary NITJ",
+        "NITJ IP average package",
+        "average package of industrial production"
+      ],
+      "responses": [
+        "<h3>Industrial Production - Average Package</h3><p>The average package for the Industrial Production branch at NIT Jalandhar is <strong>Rs. 8.59 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "average_package_ice",
+      "patterns": [
+        "Average package of ICE in NIT Jalandhar",
+        "Average offer of ICE  in NITJ",
+        "Instrumentation and Control Engineering average salary NITJ",
+        "NITJ ICE average package",
+        "average package of ice"
+      ],
+      "responses": [
+        "<h3>ICE - Average Package</h3><p>The average package for the ICE branch at NIT Jalandhar is <strong>Rs. 10.29 LPA</strong>.</p>"
+      ]
+    },
+
+    {
+      "tag": "average_package_chemical",
+      "patterns": [
+        "Average package of Chemical in NIT Jalandhar",
+        "Average offer of Chemical  in NITJ",
+        "Chemical Engineering average salary NITJ",
+        "NITJ Chemical average package",
+        "average package of chemical"
+      ],
+      "responses": [
+        "<h3>Chemical - Average Package</h3><p>The average package for the Chemical branch at NIT Jalandhar is <strong>Rs. 7.35 LPA</strong>.</p>"
       ]
     },
 
