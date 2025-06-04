@@ -1,6 +1,130 @@
 {
   "intents": [
+    {
+      "tag": "intakeIPE",
+      "patterns": [
+        "What is the student intake for the IPE branch at NIT Jalandhar?",
+        "How many students are admitted to the IPE department at NIT Jalandhar?",
+        "What is the number of seats available in the IPE program at NIT Jalandhar?",
+        "Tell me about the intake capacity for IPE students at NIT Jalandhar.",
+        "How many students are enrolled in the IPE course at NIT Jalandhar?",
+        "What's the total number of seats for IPE students at NIT Jalandhar?",
+        "IPE branch student intake?",
+        "Number of seats in IPE?",
+        "Student capacity of IPE department?",
+        "How many admissions in IPE?",
+        "Intake for IPE students?",
+        "Seats available for IPE?",
+        "IPE admission capacity?",
+        "Number of students admitted to IPE?",
+        "Total seats in IPE branch?"
+      ],
+      "responses": [
+        "IPE has approsimately 91 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/ipe/Student' target='_blank'>IPE Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_IPE",
+      "patterns": [
+        "How many IPE students got placed at NIT Jalandhar?",
+        "What is the placement number for the IPE branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the IPE department of NIT Jalandhar.",
+        "How many students from IPE were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the IPE branch at NIT Jalandhar?",
+        "Number of IPE students placed?",
+        "Placement figures for IPE students at NIT Jalandhar?",
+        "How many students from  IPE were placed?",
+        "NIT Jalandhar IPE placements - number of students?",
+        "Count of placed students in IPE NIT Jalandhar?"
+      ],
+      "responses": [
+        "In IPE, approsimately 66 students are placed. Placement rate: 72.57%."
+      ]
+    },
 
+    {
+      "tag": "intakeMechanical",
+      "patterns": [
+        "What is the student intake for the Mechanical branch at NIT Jalandhar?",
+        "How many students are admitted to the Mechanical department at NIT Jalandhar?",
+        "What is the number of seats available in the Mechanical program at NIT Jalandhar?",
+        "Tell me about the intake capacity for Mechanical students at NIT Jalandhar.",
+        "How many students are enrolled in the Mechanical course at NIT Jalandhar?",
+        "What's the total number of seats for Mechanical students at NIT Jalandhar?",
+        "Mechanical branch student intake?",
+        "Number of seats in Mechanical?",
+        "Student capacity of Mechanical department?",
+        "How many admissions in Mechanical?",
+        "Intake for Mechanical students?",
+        "Seats available for Mechanical?",
+        "Mechanical admission capacity?",
+        "Number of students admitted to Mechanical?",
+        "Total seats in Mechanical branch?"
+      ],
+      "responses": [
+        "Mechanical has approsimately 120 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/me/Student' target='_blank'>Mechanical Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_Mechanical",
+      "patterns": [
+        "How many Mechanical students got placed at NIT Jalandhar?",
+        "What is the placement number for the Mechanical branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the Mechanical department of NIT Jalandhar.",
+        "How many students from Mechanical were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the Mechanical branch at NIT Jalandhar?",
+        "Number of Mechanical students placed?",
+        "Placement figures for Mechanical students at NIT Jalandhar?",
+        "How many students from  Mechanical were placed?",
+        "NIT Jalandhar Mechanical placements - number of students?",
+        "Count of placed students in Mechanical NIT Jalandhar?"
+      ],
+      "responses": [
+        "In Mechanical, approsimately 79 students are placed. Placement rate: 65.58%."
+      ]
+    },
+
+    {
+      "tag": "intakeBT",
+      "patterns": [
+        "What is the student intake for the BT branch at NIT Jalandhar?",
+        "How many students are admitted to the BT department at NIT Jalandhar?",
+        "What is the number of seats available in the BT program at NIT Jalandhar?",
+        "Tell me about the intake capacity for BT students at NIT Jalandhar.",
+        "How many students are enrolled in the BT course at NIT Jalandhar?",
+        "What's the total number of seats for BT students at NIT Jalandhar?",
+        "BT branch student intake?",
+        "Number of seats in BT?",
+        "Student capacity of BT department?",
+        "How many admissions in BT?",
+        "Intake for BT students?",
+        "Seats available for BT?",
+        "BT admission capacity?",
+        "Number of students admitted to BT?",
+        "Total seats in BT branch?"
+      ],
+      "responses": [
+        "BT has approsimately 66 seats. You can explore about students here: <a href='https://departments.nitj.ac.in/dept/bt/Student' target='_blank'>BT Students</a>."
+      ]
+    },
+    {
+      "tag": "studentsplaced_BT",
+      "patterns": [
+        "How many BT students got placed at NIT Jalandhar?",
+        "What is the placement number for the BT branch in NIT Jalandhar?",
+        "Tell me the number of students placed from the BT department of NIT Jalandhar.",
+        "How many students from BT were recruited at NIT Jalandhar?",
+        "What's the count of placed students in the BT branch at NIT Jalandhar?",
+        "Number of BT students placed?",
+        "Placement figures for BT students at NIT Jalandhar?",
+        "How many students from  BT were placed?",
+        "NIT Jalandhar BT placements - number of students?",
+        "Count of placed students in BT NIT Jalandhar?"
+      ],
+      "responses": [
+        "In BT, approsimately 47 students are placed. Placement rate: 71.21%."
+      ]
+    },
     {
       "tag": "cutoff_detailed_tables",
       "patterns": [
