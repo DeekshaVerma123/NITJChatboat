@@ -1,5 +1,27 @@
 {
   "intents": [
+
+    {
+      "tag": "cutoff_detailed_tables",
+      "patterns": [
+        "Detailed cutoff of IT for all categories",
+        "UG and PG cutoff of IT branch in NIT Jalandhar",
+        "BTech and MTech category wise cutoff",
+        "Show me the opening and closing rank of IT branch",
+        "Cutoff tables of IT branch in NITJ",
+        "Opening and closing rank of Information Technology",
+        "Opening rank of IT Branch",
+        "NIT Jalandhar IT opening and closing ranks",
+        "Show rank table of BTech IT batch",
+        "Give me latest cutoff for NIT Jalandhar IT ",
+        "I want complete cutoff data for all categories",
+        "Cutoff of IT NITJ 2024 and 2023"
+      ],
+      "responses": [
+        "<h3>UG Program (BTech in Information Technology)</h3><table border='1' cellspacing='0' cellpadding='5'><tr><th rowspan='2'>Category</th><th colspan='2'>July 2024 Entry</th><th colspan='2'>July 2023-June 2024</th></tr><tr><th>Starting Rank</th><th>Ending Rank</th><th>Starting Rank</th><th>Ending Rank</th></tr><tr><td>General</td><td>15550 (HS)<br>10632 (OS)</td><td>26077 (HS)<br>21173 (OS)</td><td>14489 (HS)<br>9998 (OS)</td><td>22472 (HS)<br>21588 (OS)</td></tr><tr><td>OBC</td><td>10894 (HS)<br>3682 (OS)</td><td>30554 (HS)<br>8296 (OS)</td><td>11282 (HS)<br>3693 (OS)</td><td>17679 (HS)<br>8412 (OS)</td></tr><tr><td>SC</td><td>4074 (HS)<br>2425 (OS)</td><td>7016 (HS)<br>3427 (OS)</td><td>3079 (HS)<br>1905 (OS)</td><td>5390 (HS)<br>3712 (OS)</td></tr><tr><td>ST</td><td>6338 (HS)<br>978 (OS)</td><td>19832 (HS)<br>1173 (OS)</td><td>2904 (HS)<br>796 (OS)</td><td>15430 (HS)<br>1272 (OS)</td></tr><tr><td>EWS</td><td>4504 (HS)<br>1916 (OS)</td><td>5397 (HS)<br>3841 (OS)</td><td>3784 (HS)<br>1798 (OS)</td><td>4358 (HS)<br>3696 (OS)</td></tr></table>"
+      ]
+    },
+
     {
       "tag": "hostel_strength",
       "patterns": [
