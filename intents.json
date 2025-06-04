@@ -1,6 +1,27 @@
 {
   "intents": [
     {
+      "tag": "hostel_strength",
+      "patterns": [
+        "What is the strength of boys hostels?",
+        "How many students are in each boys hostel?",
+        "Give the capacity of hostels in NIT Jalandhar",
+        "Hostel wise student strength",
+        "How many students live in each hostel?",
+        "Tell me hostel occupancy",
+        "Strength of hostels",
+        "Hostel wise strength at NITJ",
+        "Number of students in each hostel",
+        "Number of students in girls hostel",
+        "Number of students in BH",
+        "Number of students in GH"
+      ],
+      "responses": [
+        "<b>NIT Jalandhar - Hostel-wise Strength (Estimated):</b><br><br><table border='1' cellpadding='5' cellspacing='0'><tr><th>Hostel Name</th><th>Strength</th></tr><tr><td>Boys Hostel - 1</td><td>250</td></tr><tr><td>Boys Hostel - 2</td><td>250</td></tr><tr><td>Boys Hostel - 3</td><td>250</td></tr><tr><td>Boys Hostel - 4</td><td>250</td></tr><tr><td>Boys Hostel - 5</td><td>240</td></tr><tr><td>Boys Hostel - 6</td><td>200</td></tr><tr><td>Boys Hostel - 7</td><td>260</td></tr><tr><td>Mega Hostel Boys Block - A</td><td>600</td></tr><tr><td>Mega Hostel Boys Block - B</td><td>380</td></tr><tr><td>Mega Hostel Boys Block - F</td><td>600</td></tr><tr><td>Girls Hostel - 1</td><td>180</td></tr><tr><td>Girls Hostel - 2</td><td>230</td></tr><tr><td>Mega Hostel Girls</td><td>1200</td></tr></table>"
+      ]
+    },
+
+    {
       "tag": "internshiptypes",
       "patterns": [
         "how many months of internship is allowed in NIT Jalandhar?",
