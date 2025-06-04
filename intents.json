@@ -1,6 +1,110 @@
 {
   "intents": [
     {
+      "tag": "deaninfo",
+      "patterns": [
+        "Who are the deans of NIT Jalandhar?",
+        "List of deans and associate deans at NITJ",
+        "Provide details of faculty and student deans",
+        "Academic dean contacts",
+        "Student welfare dean email",
+        "Research dean NITJ",
+        "List of all deans in NIT Jalandhar",
+        "Dean and associate dean contacts NITJ",
+        "Dean of NIT Jalandhar",
+        "College Dean"
+      ],
+      "responses": [
+        "<b>Deans & Associate Deans - NIT Jalandhar</b><br><br><table border='1' cellpadding='5' cellspacing='0'><tr><th>Name</th><th>Designation</th><th>Contact</th><th>Email(s)</th></tr><tr><td>Prof Raman Bedi</td><td>Dean (Academic)</td><td>0181-5037415</td><td>da@nitj.ac.in, bedir@nitj.ac.in</td></tr><tr><td>Prof Anish Kumar Sachdeva</td><td>Dean (Student Welfare)</td><td>0181-5037419, 5037420, 5037897, 5037898</td><td>dsw@nitj.ac.in, asachdeva@nitj.ac.in</td></tr><tr><td>Prof S K Sinha</td><td>Dean (Faculty Welfare)</td><td>0181-5037423</td><td>dfw@nitj.ac.in, sinhask@nitj.ac.in</td></tr><tr><td>Prof Subhash Chander</td><td>Dean (Planning & Development)</td><td>0181-5037417</td><td>deanpd@nitj.ac.in, chanders@nitj.ac.in</td></tr><tr><td>Prof Rohit Mehra</td><td>Dean (Research & Consultancy)</td><td>0181-5037421</td><td>drc@nitj.ac.in, mehrar@nitj.ac.in</td></tr><tr><td>Prof Mamta Khosla</td><td>Dean (Industry & Int. Affairs)</td><td>0181-5037650</td><td>diia@nitj.ac.in, khoslam@nitj.ac.in</td></tr><tr><td>Dr Balwinder Raj</td><td>Associate Dean (Academic - PG)</td><td>0181-5037915</td><td>as.dapg@nitj.ac.in, rajb@nitj.ac.in</td></tr><tr><td>Dr Vickram Jeet Singh</td><td>Associate Dean (Academic - UG)</td><td>0181-5037542</td><td>as.daug@nitj.ac.in, singhvj@nitj.ac.in</td></tr><tr><td>Dr Anupam Yadav</td><td>Associate Dean (Examination)</td><td>0181-5037697</td><td>coe@nitj.ac.in, anupam@nitj.ac.in</td></tr><tr><td>Dr Indu Saini</td><td>Associate Dean (Student Welfare-I)</td><td>0181-5037623</td><td>as.dsw@nitj.ac.in, sainii@nitj.ac.in</td></tr><tr><td>Dr Anee Mohanty</td><td>Associate Dean (Student Welfare-II)</td><td>0181-5037523</td><td>as2.dsw@nitj.ac.in, mohantya@nitj.ac.in</td></tr><tr><td>Dr Rajeev Kukreja</td><td>Associate Dean (Faculty Welfare-I)</td><td>0181-5037708</td><td>as.dfw@nitj.ac.in, kukrejar@nitj.ac.in</td></tr><tr><td>Dr Harleen Dahiya</td><td>Associate Dean (Faculty Welfare-II)</td><td>0181-5037737</td><td>as2.dfw@nitj.ac.in, dahiyah@nitj.ac.in</td></tr><tr><td>Dr Senthil Kasilingam</td><td>Associate Dean (Planning & Development-I)</td><td>0181-5037555</td><td>as.dpd@nitj.ac.in, kasilingams@nitj.ac.in</td></tr><tr><td>Dr Rajesh Singla</td><td>Associate Dean (Planning & Development-II)</td><td>0181-5037677</td><td>as2.dpd@nitj.ac.in, singlar@nitj.ac.in</td></tr><tr><td>Dr Kanish Kapoor</td><td>Associate Dean (Planning & Development-III)</td><td>+91-94633-59988</td><td>as3.dpd@nitj.ac.in, kapoork@nitj.ac.in</td></tr><tr><td>Dr Nitai Basak</td><td>Associate Dean (Research & Consultancy-I)</td><td>0181-5037522</td><td>as.drc@nitj.ac.in, basakn@nitj.ac.in</td></tr><tr><td>Dr Anurag Tiwari</td><td>Associate Dean (Research & Consultancy-II)</td><td>0181-5037583</td><td>as2.drc@nitj.ac.in, tiwaria@nitj.ac.in</td></tr><tr><td>Dr Satyender Singh</td><td>Associate Dean (Research & Consultancy-III)</td><td>+91-7018-47897</td><td>as3.drc@nitj.ac.in, satyenders@nitj.ac.in</td></tr><tr><td>Dr M D Roy</td><td>Associate Dean (Industry & Int. Affairs-I)</td><td>0181-5037765</td><td>as.diia@nitj.ac.in, roymd@nitj.ac.in</td></tr><tr><td>Dr Kiran Singh</td><td>Associate Dean (Industry & Int. Affairs-II)</td><td>0181-5037741</td><td>as2.diia@nitj.ac.in, singhkp@nitj.ac.in</td></tr></table>"
+      ]
+    },
+
+    {
+      "tag": "medical_officer",
+      "patterns": [
+        "Who is the medical officer?",
+        "Tell me about the medical officer at NIT Jalandhar",
+        "Medical officer contact details",
+        "Health officer NITJ",
+        "Medical incharge details",
+        "Doctor available on campus",
+        "NITJ medical facility contact",
+        "Campus medical officer name",
+        "Whom to contact for medical help in NITJ?"
+      ],
+      "responses": [
+        "Dr. Tarun Sehgal | Phone: +91-98147-53537 | Email: sehgalt@nitj.ac.in"
+      ]
+    },
+
+    {
+      "tag": "ambulance_contact",
+      "patterns": [
+        "What is the contact number for the ambulance?",
+        "How to call ambulance in NIT Jalandhar?",
+        "Emergency ambulance contact number",
+        "Ambulance service in campus",
+        "Ambulance phone number NITJ",
+        "Is ambulance available on campus?",
+        "Whom to contact for ambulance in NITJ",
+        "Campus ambulance number",
+        "Give me the ambulance number of NIT Jalandhar"
+      ],
+      "responses": [
+        "Institute Ambulance Contact Numbers:\n📞 +91-9872904823\n📞 +91-9256147016"
+      ]
+    },
+
+    {
+      "tag": "registrar_info",
+      "patterns": [
+        "Who is the registrar of NIT Jalandhar?",
+        "who is the registrar in NITJ",
+        "registrar of NITJ",
+        "registrar of NIT Jalandhar",
+        "Can you tell me the name of the registrar at NITJ?",
+        "Registrar of NIT Jalandhar",
+        "Give me registrar details of NIT Jalandhar",
+        "Who is current registrar of NITJ?",
+        "Contact details of registrar at NIT Jalandhar",
+        "Registrar email address NIT Jalandhar",
+        "Phone number of registrar NITJ",
+        "How can I contact the registrar of NIT Jalandhar?",
+        "What is the email of registrar at NITJ?",
+        "Who is the I/C registrar of NIT Jalandhar?",
+        "Who is handling registrar duties at NIT Jalandhar?",
+        "Registrar in-charge NIT Jalandhar"
+      ],
+      "responses": [
+        "Registrar (I/C): Prof. Ajay Bansal\nPhone: 0181-5037425\nEmail: registrar@nitj.ac.in"
+      ]
+    },
+    {
+      "tag": "hostel_warden_contact",
+      "patterns": [
+        "wardens",
+        "warden",
+        "wardens in NITJ",
+        "wardens in NTI Jalandhar",
+        "contact details of girls hostel",
+        "who is the warden of girls hostel",
+        "List of hostel wardens NIT Jalandhar",
+        "NITJ hostel warden contact details",
+        "Hostel incharge names with mobile numbers",
+        "Who is the warden of boys hostel 1",
+        "Give contact of girls hostel wardens",
+        "All wardens of NIT Jalandhar hostels",
+        "Hostel warden email ID and phone number NITJ",
+        "Wardens of Mega hostel boys and girls",
+        "Hostel wise warden list with contact info",
+        "NITJ hostel staff information"
+      ],
+      "responses": [
+        "<h3>Hostel Administration</h3><ul><li><b>Chief Warden:</b> Dr. Shailendra Bajpai<br>Phone: +91-181-5037820<br>Email: chiefwarden@nitj.ac.in</li><li><b>Deputy Chief Warden:</b> Dr. Rakesh Kumar<br>Phone: +91-181-5037543<br>Email: dcw@nitj.ac.in</li></ul><br><h3>Boys' Hostels</h3><table border='1' cellspacing='0' cellpadding='5'><tr><th>Hostel</th><th>Warden Name</th><th>Contact</th><th>Email</th></tr><tr><td>Boys Hostel No. 1</td><td>Dr. Samayveer Singh</td><td>0181-5037874</td><td>samays@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 2</td><td>Dr. Manoj Kumar</td><td>+91-9793557548</td><td>wbh2@nitj.ac.in / kumarm@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 3</td><td>Dr. Chandi Charan Patra</td><td>0181-5037942</td><td>patracc@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 4</td><td>Dr. Mohit Kumar</td><td>0181-5037872</td><td>kumarmohit@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 5</td><td>Dr. Prashant Kumar</td><td>0181-5037870</td><td>prashantk@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 6</td><td>Dr. Kailash Chand Sharma</td><td>+91-9887221353</td><td>sharmakc@nitj.ac.in</td></tr><tr><td>Boys Hostel No. 7 & 7-E</td><td>Dr. Narendra Kumar</td><td>+91-8982612225</td><td>kumarn@nitj.ac.in</td></tr><tr><td>Mega Hostel Boys Block - A</td><td>Dr. Deepak Sahu</td><td>+91-8219215064</td><td>sahud@nitj.ac.in</td></tr><tr><td>Mega Hostel Boys Block - B</td><td>Dr. Gyan Prakash</td><td>+91-181-5037645</td><td>prakashg@nitj.ac.in</td></tr></table><br><h3>Girls' Hostels</h3><table border='1' cellspacing='0' cellpadding='5'><tr><th>Hostel</th><th>Warden Name</th><th>Contact</th><th>Email</th></tr><tr><td>Girls Hostel No. 1</td><td>Dr. Rupali Satavalekar</td><td>0181-5037556</td><td>satavalekarr@nitj.ac.in</td></tr><tr><td>Girls Hostel No. 2 & E-Type Quarters</td><td>Dr. Deepika Rani</td><td>0181-5037601</td><td>ranid@nitj.ac.in</td></tr><tr><td>Mega Hostel Girls</td><td>Dr. Sathiya S</td><td>+91-9944300397</td><td>sathiya@nitj.ac.in</td></tr></table>"
+      ]
+    },
+
+    {
       "tag": "intakeIPE",
       "patterns": [
         "What is the student intake for the IPE branch at NIT Jalandhar?",
