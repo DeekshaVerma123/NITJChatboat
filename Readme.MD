@@ -74,11 +74,10 @@ I used `pip install nltk spacy flask` to install them together. Then I use `pyth
 4. **Inference** – User queries are tokenized, converted into vectors, and classified.
 5. **Response Generation** – Based on the predicted tag, a random response from `intents.json` is returned.
 
-## Train the Model
-python train.py
+## Reference
 
-## Run the Chatbot
-python run.py
+[📄 Project SetUp Guide (Google Doc)](https://docs.google.com/document/d/1E0-aEIbrzIPehTXmDWR5E1tKFntN2CnDQazu0wP5tbo/edit?usp=sharing)
+
 ## intents.json Sample Format
 
 ```json
@@ -96,6 +95,6 @@ python run.py
     }
   ]
 }
+```
+##  Screenshots
 
-
-## Screenshots
