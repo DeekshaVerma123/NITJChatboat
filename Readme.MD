@@ -6,14 +6,12 @@ This chatbot will respond to students' queries regarding university. Questions l
 
 All features :
 
-- Ask result or CGPA
 - Queries related to faculty
 - Course details & syllabus
-- Ask about holidays
+- Campus Facilities
 
 ## Tech Stack
 
-- **database** - sqlite3
 - **server** - python & flask
 - **frontend** - html,css,js
 - **neural network** - python & pytorch
@@ -63,17 +61,49 @@ I used `pip install nltk spacy flask` to install them together. Then I use `pyth
 -- requirement.txt (stores the name & versions of the libraries used)
 ```
 
+## How It Works
+
+1. **`intents.json`** – Contains tags (like `"admission"`), patterns (user queries), and responses.
+2. **Training** – The `chat.py` file:
+   - Tokenizes and stems user inputs.
+   - Converts text into a bag-of-words vector.
+   - Uses a feedforward neural network to classify input into one of the known intents.
+   - Trains using PyTorch with augmentation and early stopping.
+3. **Model Saving** – Trained model is saved in `data.pth`.
+4. **Inference** – User queries are tokenized, converted into vectors, and classified.
+5. **Response Generation** – Based on the predicted tag, a random response from `intents.json` is returned.
+
+## Reference
+
+[📄 Project SetUp Guide (Google Doc)](https://docs.google.com/document/d/1E0-aEIbrzIPehTXmDWR5E1tKFntN2CnDQazu0wP5tbo/edit?usp=sharing)
+
+## intents.json Sample Format
+
+```json
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there"],
+      "responses": ["Hello! How can I help you about NITJ?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What are the admission criteria?",
+        "How to apply for NITJ?"
+      ],
+      "responses": ["You can apply via JoSAA counseling after JEE Mains."]
+    }
+  ]
+}
+```
+
 ## Screenshots
 
-### Home Page
+###Home Page
 
-![Home Page](./assets/Chatbot.png)
-![Home Page2](./assets/Chatbot2.png)
-![Home Page3](./assets/Chatbot3.png)
-
-### Admin Pages
-
-![Admin-Teachers](./assets/Admin-Teachers.png)
-![Admin-Students](./assets/Admin-Students.png)
-![Admin-Courses](./assets/Admin-Courses.png)
-![Admin-Holidays](./assets/Admin-Holidays.png)
+![Home Page1](./assets/chatbot_home.png)
+![Home Page2](./assets/chatbot1.png)
+![Home Page3](./assets/chatbot2_facilities.png)
+![Home Page4](./assets/chatbot3_placements.png)
