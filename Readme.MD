@@ -81,6 +81,7 @@ python train.py
 python run.py
 ## intents.json Sample Format
 
+```json
 {
   "intents": [
     {
@@ -95,7 +96,6 @@ python run.py
     }
   ]
 }
-
 
 
 ## Screenshots
