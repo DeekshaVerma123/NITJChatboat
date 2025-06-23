@@ -6,14 +6,13 @@ This chatbot will respond to students' queries regarding university. Questions l
 
 All features :
 
-- Ask result or CGPA
 - Queries related to faculty
 - Course details & syllabus
-- Ask about holidays
+- Campus Facilities
 
 ## Tech Stack
 
-- **database** - sqlite3
+
 - **server** - python & flask
 - **frontend** - html,css,js
 - **neural network** - python & pytorch
