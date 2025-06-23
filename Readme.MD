@@ -61,3 +61,41 @@ I used `pip install nltk spacy flask` to install them together. Then I use `pyth
 -- intents.json (dataset for training)
 -- requirement.txt (stores the name & versions of the libraries used)
 ```
+
+## How It Works
+
+1. **`intents.json`** – Contains tags (like `"admission"`), patterns (user queries), and responses.
+2. **Training** – The `chat.py` file:
+   - Tokenizes and stems user inputs.
+   - Converts text into a bag-of-words vector.
+   - Uses a feedforward neural network to classify input into one of the known intents.
+   - Trains using PyTorch with augmentation and early stopping.
+3. **Model Saving** – Trained model is saved in `data.pth`.
+4. **Inference** – User queries are tokenized, converted into vectors, and classified.
+5. **Response Generation** – Based on the predicted tag, a random response from `intents.json` is returned.
+
+## Train the Model
+python train.py
+
+## Run the Chatbot
+python run.py
+## intents.json Sample Format
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey there"],
+      "responses": ["Hello! How can I help you about NITJ?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["What are the admission criteria?", "How to apply for NITJ?"],
+      "responses": ["You can apply via JoSAA counseling after JEE Mains."]
+    }
+  ]
+}
+
+
+
+## Screenshots
