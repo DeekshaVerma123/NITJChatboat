@@ -101,7 +101,7 @@ I used `pip install nltk spacy flask` to install them together. Then I use `pyth
 
 ## Screenshots
 
-###Home Page
+### Home Page
 
 ![Home Page1](./assets/chatbot_home.png)
 ![Home Page2](./assets/chatbot1.png)
